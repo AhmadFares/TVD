@@ -1,0 +1,999 @@
+id_assessment,student_id,question_id,id_topic,id_subtopic,question_level,answer_student,date_assessment,duration,option_selected,id_lect,description,question,level,answer1,answer2,answer3,answer4,file_name,file_ext,date_question,validate,validate_date,validate_by,newLevel,algorithmLevel,checked,keyword_id,keyword_name,topic_name,subtopic_name
+4300,1220,376,18,11.0,5,0,03/01/2020 17:42,,,38,,"Consider the linear transformation $T:\mathbb{R}^2 \longrightarrow \mathbb{R}^3$ defined by $T(x,y)= \left(x+y,2x-y,3y\right)$ and the basis $A=\left\{(1,1),(-1,2)\right\}$ and $B=\left\{(0,0,1),(0,2,0),(3,0,0)\right\}$ of $\mathbb{R}^2$ and $\mathbb{R}^3$, respectively. 
+Indicate the transformation matrix $T$ relative to the basis $A$ and $B$.",Basic,"$\left[\begin{array}{rr}
+      3& 6 \\
+			\dfrac{1}{2} & -2\\
+					\dfrac{2}{3}& \dfrac{1}{3}\end{array}\right]$ ","$\left[\begin{array}{rrr}
+      3& \dfrac{1}{2} &\dfrac{2}{3}\\
+	6 & -2 & \dfrac{1}{3}\end{array}\right]$","$\left[\begin{array}{ccc}
+      0& 0 & 3 \\
+	0 & 2 & 0\\
+	1& 0 & 0 \end{array}\right]$","$\left[\begin{array}{rr}
+      1& -1 \\
+     1 & 2
+\end{array}\right]$",,,27/04/2019 20:58,1,14/05/2019 13:07,61.0,3,2,1.0,158.0,Matrix of a linear transformation,Linear Algebra,Linear Transformations
+3107,457,426,18,10.0,4,1,12/12/2019 0:18,,,72,,Choose the true statement.,Basic,Every set of four vectors that spans $\mathbb{R}^4$ is a basis for $\mathbb{R}^4$,There is a set of five linearly independent vectors in $\mathbb{R}^4$,There is a set of three vectors that span $\mathbb{R}^4$,Every set of vectors that spans $\mathbb{R}^4$ is a basis for $\mathbb{R}^4$,,,30/04/2019 1:18,1,01/05/2019 22:58,38.0,1,1,1.0,148.0,Span,Linear Algebra,Vector Spaces
+21068,3419,639,18,7.0,1,-1,11/06/2024 9:26,,,52,,"If $A$ is a $5\times 5$ matrix with determinant $3$, then the determinant of $A^{-1}$ is",Basic,$\frac{1}{3}$,$\frac{5}{3}$,$0$,$-3$,,,12/05/2019 11:26,1,12/05/2019 11:36,52.0,4,2,1.0,116.0,Matrix operations,Linear Algebra,Matrices and Determinants
+1031,455,630,18,,1,0,29/10/2019 16:20,,,127,,Which of the following matrices has orthogonal eigenvectors?,Basic," $\begin{bmatrix}
+1 & 2 & 3 \\
+2 & 4 & 4  \\
+3 & 4 & 5 \end{bmatrix}$"," $\begin{bmatrix}
+3 & 2 & 1 \\
+2 & 0 & -3 \\
+-1 & -3 & 3 \end{bmatrix}$ "," $\begin{bmatrix}
+-3 & -1 & -3 \\
+2 & -3 & -1 \\
+1 & 2 & -3 \end{bmatrix}$ "," $\begin{bmatrix}
+-3 & -1 & -3 \\
+1 & -3 & 1 \\
+1 & -3 & 1 \end{bmatrix}$ ",,,10/05/2019 18:22,1,27/06/2019 18:34,64.0,4,2,1.0,128.0,Eigenvectors,Linear Algebra,
+17734,3212,666,7,2.0,1,1,23/02/2023 16:15,,,50,,"Solve for $x$:
+
+$\sqrt{ \dfrac{x}{2}}+3=5$",Basic,$x=8$,$x=32$,$x=5.56$,$x=2$,,,14/05/2019 17:27,1,09/09/2019 1:00,37.0,2,4,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+15350,2902,1119,26,,2,1,01/05/2022 21:30,,,37,,Calculate $\displaystyle \int_0^1 e^x dx$ using trapezoidal rule with three subintervals.,Basic, $\displaystyle \int_0^1 e^x dx \approx 1.7342$., $\displaystyle \int_0^1 e^x dx \approx 1.7189$., $\displaystyle \int_0^1 e^x dx \approx 1.8591$., $\displaystyle \int_0^1 e^x dx \approx 1.8342$.,,,14/06/2020 21:26,1,15/06/2020 17:34,38.0,3,4,1.0,356.0,Trapezoidal rule,Numerical Methods,
+4076,1171,444,18,11.0,5,0,02/01/2020 16:55,,,38,,"Consider the linear transformation  $T:\mathbb{R}^3 \longrightarrow \mathbb{R}^4$ and $T(x,y,z)=(x-y+3z,2x+2y+2z,-x+y-3z,3x+4y+2z)$. Choose the wrong answer.",Basic,"The transformation $T$ is surjective
+","$ker(T)=span\left\{(-2,1,1)\right\}$.
+","$dim \left(range (T)\right) =2$
+","$\left(-3,2,3,5\right)\in range(T)$",,,02/05/2019 0:47,1,16/05/2019 16:26,61.0,3,1,1.0,159.0,Kernel,Linear Algebra,Linear Transformations
+17499,3086,257,4,,2,1,06/01/2023 14:08,,,66,,"Find $\dfrac{?z}{?y}$ of $z(x,y)=6x^4+4x^3y^2-5y$.",Basic,"$\dfrac{?z}{?y}(x,y)=8x^3y-5$","$\dfrac{?z}{?y}(x,y)=12x^3y+5$","$\dfrac{?z}{?y}(x,y)=8x^2y^2-5$","$\dfrac{?z}{?y}(x,y)=12x^3y-5$",,,12/04/2019 19:09,1,18/08/2019 3:06,37.0,1,4,1.0,265.0,First order,Differentiation,
+9592,1781,113,7,2.0,7,1,27/10/2020 17:33,,,50,,"Consider $m \neq 0$. Make $x$ the subject of the expression
+
+$y=mx+c$",Basic,$x=\frac{y-c}{m}$,$x=\frac{y}{m+c}$,$x=m+c-y$,$x=\frac{y-m}{c}$,,,20/03/2019 22:26,1,26/09/2019 11:28,37.0,1,4,1.0,3.0,Linear equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+16771,3115,114,7,2.0,7,1,03/11/2022 15:23,,,50,,"Make $r$ the subject of the expression
+
+$A=4\pi r^2$",Basic,$r=\pm \sqrt\frac{A}{4 \pi}$,$r=\pm \sqrt\frac{4 \pi}{A}$,$r=\frac{A^2}{4\pi}$,$r=\sqrt{4\pi-A}$,,,21/03/2019 14:20,1,10/05/2019 0:46,37.0,1,4,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+18121,2570,1250,26,,3,0,14/05/2023 20:37,,,37,,"Consider the table
+
+$$\begin{array}{c|ccc}
+x & 1 & 2 & 3   \\
+\hline
+y & 0 & 1 & 4 \\
+\end{array}$$
+
+Find the Lagrange's interpolation polynomial.",Basic,$P(x)=-(x-1)(x-3)+2(x-1)(x-2)$.,$P(x)=(x-1)(x-3)+(x-1)(x-2)$.,$P(x)=(x-2)(x-3)+(x-1)(x-3)+(x-1)(x-2)$.,$P(x)=(x-1)(x-2)(x-3)$.,,,01/06/2021 16:20,1,01/06/2021 16:21,37.0,2,2,1.0,268.0,Lagrange's interpolation,Numerical Methods,
+10246,1829,217,18,9.0,4,1,27/11/2020 13:14,,,38,,"Find the solution of the following linear system:
+$$\begin{cases}
+&x &+ &y &+ &z &= &0 \\
+&-x &+ &3y &+ &2z &= &-1 \\
+&2x &+ &y &- &z &= &0
+\end{cases}$$",Basic,"The vector solution is $\left(\dfrac{2}{9},-\dfrac{1}{3},\dfrac{1}{9}\right)$.",The system has no solutions.,The system has infinitely many solutions depending on one parameter.,The system has infinitely many solutions depending on two parameters.,,,06/04/2019 23:41,1,07/04/2019 0:41,37.0,1,5,1.0,137.0,Square linear system,Linear Algebra,Linear Systems
+4754,1220,425,18,10.0,4,0,05/01/2020 2:49,,,72,,"Indicate the coordinate vector of $w=(2,-3)$ relative to the basis $S=\left\{(2,-2), (0,3)\right\}$ of $\mathbb{R}^2$.",Basic,"$\left[\begin{array}{r}
+      1 \\
+      -\frac{1}{3} \\
+    \end{array}\right]$","$\left[\begin{array}{r}
+      1 \\
+      -3 \\
+    \end{array}\right]$","$\left[\begin{array}{r}
+      -\frac{1}{3} \\
+      1\\
+    \end{array}\right]$","$\left[\begin{array}{r}
+      -1 \\
+      3 \\
+    \end{array}\right]$",,,30/04/2019 1:15,1,01/05/2019 22:56,38.0,2,1,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+5555,1314,425,18,10.0,4,0,06/01/2020 15:43,,,72,,"Indicate the coordinate vector of $w=(2,-3)$ relative to the basis $S=\left\{(2,-2), (0,3)\right\}$ of $\mathbb{R}^2$.",Basic,"$\left[\begin{array}{r}
+      1 \\
+      -\frac{1}{3} \\
+    \end{array}\right]$","$\left[\begin{array}{r}
+      1 \\
+      -3 \\
+    \end{array}\right]$","$\left[\begin{array}{r}
+      -\frac{1}{3} \\
+      1\\
+    \end{array}\right]$","$\left[\begin{array}{r}
+      -1 \\
+      3 \\
+    \end{array}\right]$",,,30/04/2019 1:15,1,01/05/2019 22:56,38.0,2,1,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+2332,625,664,7,,3,1,28/11/2019 9:07,,,50,,"Simplify:
+
+$\dfrac{(\sqrt{y^3})(\sqrt{y})}{y^{-2}}$",Advanced,$y^4$,$y^2$,$y^{-4}$,$y^{-2}$,,,14/05/2019 17:21,1,09/09/2019 0:57,37.0,3,2,1.0,5.0,Simplify expressions,Fundamental Mathematics,
+15323,2905,1110,26,,4,1,29/04/2022 12:19,,,37,,"Consider the table
+
+$$\begin{array}{c|ccc}
+x & 2 & 2.5 & 4   \\
+\hline
+y & 0.5 & 0.4 & 0.25 \\
+\end{array}$$
+
+Find the Newton's interpolation polynomial.",Basic,$P(x)=0.05x^2 - 0.425x + 1.15$.,$P(x)=-0.05x^2 - 0.425x + 1.15$.,$P(x)=0.05x^2 + 0.425x + 1.15$.,$P(x)=0.05x^2 - 0.425x - 1.15$.,,,14/06/2020 20:00,1,15/06/2020 18:23,38.0,3,2,1.0,269.0,Polynomial interpolation,Numerical Methods,
+7387,966,378,18,11.0,5,1,09/01/2020 19:04,,,38,,"Consider the linear operator $F:\mathbb{R}^2 \longrightarrow \mathbb{R}^2$ such that $F(x,y)=(x+2y,2x+3y)$. Choose the right answer:",Basic,"$F^{-1}$ is a symmetric operator defined by $F^{-1}(x,y)=(-3x+2y, 2x-y)$
+","$F^{-1}$ does not exist
+","$F^{-1}$ is defined by $F^{-1}(x,y)=(3x-2y, -2x+y)$ and is not a symmetric operator
+","$F^{-1}$ is a symmetric operator defined by $F^{-1}(x,y)=(3x-2y, 2x-y)$",,,27/04/2019 21:48,1,14/05/2019 13:12,61.0,3,1,1.0,161.0,Injective linear transformation,Linear Algebra,Linear Transformations
+11234,1834,125,18,7.0,1,0,09/01/2021 0:02,,,52,,"Find $M^2+(A^T\cdot B)^{-1}$, where $A=\left( \begin{array}{rrr}
+-1 & 3 & 2 \end{array}
+\right)$, $B=\left( \begin{array}{rrr}
+-2 & 4 & 1 \end{array}
+\right)$, and $M=\left( \begin{array}{rrr}
+7 & 2 & 1 \\
+-1 & 3 & 0  \\
+2 & 0 & -2 \end{array}
+\right)$.",Basic,given operation is not valid,"$\left( \begin{array}{rrr}
+11 & 4 & 0 \\ 
+-6 & 3 & 1 \\ 
+23 & 14 & -8 \end{array}
+\right)$","$\left( \begin{array}{rrr}
+49 & 20 & 5 \\ 
+-10 & 7 & -1 \\ 
+10 & 4 & 6 \end{array}
+\right)$","$\left( \begin{array}{rrr}
+7 & 2 & 1 \\
+-1 & 3 & 0  \\
+2 & 0 & -2 \end{array}
+\right)$",,,24/03/2019 14:14,1,07/05/2019 15:32,52.0,2,2,1.0,114.0,Matrix multiplication,Linear Algebra,Matrices and Determinants
+22506,3469,1734,18,7.0,4,1,05/01/2025 14:56,,,52,,"Suppose that $$A=\left( 
+ \begin{array}{rrr}
+1 & 2  & -1  \\ 
+0 & 0 & 2  \\ 
+-1 & -2 & 3  \\ 
+2 & 4 & 0 \end{array}
+\right)$$ and $$B=\left( 
+ \begin{array}{rrr}
+0 & 1  & 1  \\ 
+2 & 2 & 0  \\ 
+0 & 3 & 2 \end{array}
+\right).$$ Which of the following matrices has rank $3$?",Basic,$B$,$B \cdot A^T$,$A$,$A \cdot B$,,,19/09/2019 18:57,1,20/09/2019 16:13,37.0,3,4,,118.0,Rank,Linear Algebra,Matrices and Determinants
+5107,1324,438,18,10.0,2,1,05/01/2020 18:27,,,81,,"Consider the matrix 
+$A=\left[\begin{array}{rr}
+ 2  & 1  \\
+  -1 & 3  
+\end{array}\right]$. 
+The subspaces $C_A$ of $\mathbb{R}^2$ generated by the columns of $A$ and the null space $N_A$ of $A$ are respectively: ",Basic,"$C_A=\mathbb{R}^2$, $N_A=\{ (0, 0)\}$","$C_A=\{(x+3y, 2y): x, y\in \mathbb{R}\}$, $N_A=\{(0, 0) \}$","$C_A=\mathbb{R}^2$,  $N_A=\{(x, -3x) \}$","$C_A=\{ \}$,  $N_A=\mathbb{R}^2$ ",,,30/04/2019 12:05,1,02/05/2019 18:53,38.0,3,2,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+21894,3492,1022,12,12.0,1,1,10/12/2024 18:38,,,74,,"A school needs to hire three new teachers for three different subjects ($S_1$, $S_2$ and $S_3$). The marks (ranges from $0$ to $20$) achieved by the four candidates ($C_1$, $C_2$, $C_3$ and $C_4$), at the exam regarding each subject, are the following:
+		
+\[
+\begin{array}{l|ccc|}
+& S_1 & S_2 & S_3 \\
+\hline
+C_1 & 14 & 13 & 16 \\
+C_2 &16 & 18  & 15 \\
+C_3 & 15 & 17 & 11 \\
+C_4 & 14 & 16  & 14 \\
+\hline 
+\end{array}
+\]	
+
+Assign the different candidates for the subjects, supposing that each teacher must have at least $14$ marks in the subject to teach and the school wants to maximize the sum of the marks concerning the admitted teachers.",Advanced,"Tied optimal solutions: $x_{13} = 1,  x_{21} = 1, x_{32} = 1 \text{, other },  x_{ij}=0~$ or $~x_{13} = 1,  x_{22} = 1, x_{31} = 1 \text{, other }  x_{ij}=0$;","$x_{23} = 1, x_{32} = 1, x_{41} = 1 \text{, other }  x_{ij}=0$;","$x_{13} = 1,  x_{32} = 1, x_{41} = 1 \text{, other }  x_{ij}=0$;","$x_{13} = 1,  x_{21} = 1, x_{32} = 1 \text{, other }  x_{ij}=0$;",,,13/12/2019 18:06,1,19/02/2020 12:07,61.0,4,3,1.0,167.0,Simplex method,Optimization,Linear Optimization
+10139,1379,796,7,2.0,4,0,26/11/2020 10:44,,,50,,"Solve for $x$:
+
+$3^{x^2-1}=27$",Basic,$x=\pm 2$,$x=\pm 0.5$,$x=3$,$x=0.3$,,,27/06/2019 0:35,1,27/09/2019 7:45,61.0,4,1,1.0,2.0,Exponential function,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+22865,3469,878,4,4.0,5,-1,15/01/2025 18:17,,,155,,"Consider the function $f(x,y)=e^{-4y}\sin \left( Cx\right) $. The value of $C\in \mathbb{R}$ that satisfies the equation $\dfrac{\partial f}{\partial y}=%
+\dfrac{\partial ^{2}f}{\partial x^{2}},\forall x,y\in \mathbb{R},$ is:",Basic,$C=\pm 2$,$C=\pm 1$,$C=0$,$C=4$,,,14/07/2019 18:44,1,20/08/2019 2:14,37.0,3,5,1.0,99.0,Second order,Differentiation,Partial Differentiation
+13880,1631,787,7,2.0,3,1,10/09/2021 15:48,,,50,,"Solve for $x$:
+
+$5= 4 e^{3x}$",Basic,$x=0.0744$,$x=0.924$,$x=0.6694$,$x=-0.6694$,,,26/06/2019 21:52,1,02/10/2019 12:28,58.0,4,2,1.0,2.0,Exponential function,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+3962,1148,313,18,10.0,2,-1,30/12/2019 16:43,,,81,,"Consider the vectors of $\mathbb{R}^3$, $v_1=(2, 0, 1)$, $v_2=(1, -1, 3)$, $v_3=(1, 1, -2)$ and $v_4=(3, 1, 0)$. Choose the right answer: ",Basic,"The set $\{v_1, v_2, v_3\}$ is linearly dependent but $\{v_1, v_2, v_4\}$ is linearly independent.",$v_4$ is a linear combination of $v_1$ and $v_3$,"The space generated by $\{v_1, v_2, v_3\}$ is $\mathbb{R}^3$",$v_3$ is a linear combination of $v_2$ and $v_4$ ,,,26/04/2019 16:46,1,10/05/2019 17:59,38.0,2,1,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+875,409,327,10,,5,0,11/10/2019 13:00,,,78,,Simplify $i^3+i^6+i^9$.,Basic,$-1$,$-i$,$1$,$i$,,,26/04/2019 19:08,1,27/04/2019 17:31,37.0,2,1,1.0,24.0,Imaginary part,Complex Numbers,
+8895,1606,676,3,39.0,2,1,13/07/2020 21:03,,,42,,"Let $f$ be the function defined by
+\[
+f(x)=
+\log(\sin(x)).
+\]
+What is the domain of $f$?",Advanced,"$\bigcup\limits_{k\in \mathbb{Z}} \bigl(2k\pi ,(2k+1)\pi\bigr)$","$\bigcup\limits_{k\in\mathbb{Z}} \bigl(\pi k,\pi(k+1)\bigr)$ ","$(0,\pi)$ ","$(0,+\infty)$",,,15/05/2019 15:01,1,01/08/2019 1:47,64.0,3,2,1.0,191.0,Domain,Real Functions of a Single Variable,"Domain, Image and Graphics"
+4699,1220,454,18,10.0,4,0,05/01/2020 1:38,,,81,,Choose the set of vectors which is a basis for $\mathbb{R}^2$.,Basic,"$\left\{(1,1)(-3,4)\right\}$","$\left\{(0,1)\right\}$","$\left\{(3,0),(6,0)\right\}$","$\left\{(0,1),(1,0),(2,2)\right\}$",,,02/05/2019 19:08,1,02/05/2019 19:13,38.0,1,1,1.0,151.0,Basis,Linear Algebra,Vector Spaces
+22662,3476,124,18,7.0,1,0,06/01/2025 18:10,,,52,,"Find ${\left(C^T \cdot B-6 \cdot I^{-1}\right)}^2$, where $B=\left( \begin{array}{rrr}
+2 & 1 & 1 \\ 
+0 & 0 & 3 \end{array}
+\right)$, $C=\left( \begin{array}{rrr}
+3 & 3 & 1 \\ 
+1 & -2 & 2 \end{array}
+\right)$, and $I$  -- identity matrix.",Advanced,"$\left( \begin{array}{rrr}
+30 & -3 & -3 \\ 
+-24 & 24 & 42 \\ 
+8 & 4 & 10 \end{array}
+\right)$","$\left( \begin{array}{rrr}
+55 & 27 & 57 \\ 
+36 & 19 & 12 \\ 
+28 & 14 & 45 \end{array}
+\right)$","$\left( \begin{array}{rrr}
+79 & 39 & 81 \\ 
+60 & 31 & 0 \\ 
+36 & 18 & 73 \end{array}
+\right)$",given operation is not valid,,,24/03/2019 14:13,1,07/05/2019 15:31,52.0,2,1,1.0,114.0,Matrix multiplication,Linear Algebra,Matrices and Determinants
+20538,3342,1488,10,,3,0,31/05/2024 11:19,,,2956,,"If $z=\frac{i^{4n-1}+i^{2n}}{1-i}$ and $n \in \mathbb{N}$, then it is possible to say that:",Advanced,"$z=\begin{cases}
+-i & \text{if } n \text{ is odd} \\
+1 & \text{if } n \text{ is even}
+\end{cases}$",$z$ is a real number.,$z$ has real and imaginary parts different from zero.,$z$ is a pure imaginary.,,,07/02/2023 17:55,1,17/02/2023 15:58,64.0,3,4,1.0,24.0,Imaginary part,Complex Numbers,
+22684,3476,781,18,11.0,4,1,06/01/2025 18:34,,,81,,"$F: M_{22}\rightarrow \mathbb{R}^2$, such that $F\left(\left[\begin{array}{cc}
+ x & y\\
+ z & w
+\end{array}\right]\right)=(x-y, z+w)$ be a linear application. Choose the right answer:",Advanced,"$Ker(T)=\left\{(x,x,z,-z): x, z\in \mathbb{R}\right\}$ and $range(T)=\mathbb{R}^2$","$Ker(T)=\left\{(x,x,x,-x): x\in \mathbb{R}\right\}$ and $range(T)=\mathbb{R}^2$","$Ker(T)=\left\{(0,0,0,0)\right\}$ and $range(T)=\mathbb{R}^4$","$Ker(T)=\left\{(x,-x): x\in \mathbb{R}\right\}$ and $range(T)=\mathbb{R}^2$",,,21/06/2019 18:24,1,04/10/2019 10:19,61.0,5,4,1.0,159.0,Kernel,Linear Algebra,Linear Transformations
+16181,3013,789,7,2.0,5,-1,23/09/2022 20:09,,,50,,"Solve for $x$:
+
+$3^x=5$",Basic,$x=1.47$,$x=0.6$,$x=-1.47$,$x=0.06$,,,26/06/2019 21:55,1,27/09/2019 7:38,61.0,3,1,1.0,2.0,Exponential function,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+8088,36,607,18,,2,0,05/02/2020 11:50,,,127,,"Given the matrix $A = \begin{bmatrix}
+2 & 0 & 0 \\
+3 & -1 & 0 \\
+0 & 4 & 3 \end{bmatrix}$, which of the following vectors is an eigenvector of $A$?",Basic,"$\begin{bmatrix}
+0 \\
+0 \\
+1 \end{bmatrix}$  ","$\begin{bmatrix}
+1 \\
+0 \\
+1 \end{bmatrix}$  ","$\begin{bmatrix}
+0 \\
+1 \\
+0 \end{bmatrix}$  ","$\begin{bmatrix}
+1 \\
+0 \\
+0 \end{bmatrix}$  ",,,09/05/2019 18:39,1,27/06/2019 18:20,64.0,3,3,1.0,127.0,Eigenvalues,Linear Algebra,
+14444,2597,112,7,2.0,7,1,14/10/2021 17:27,,,50,,"Make $d$ the subject of the expression
+
+$p=\frac{\pi d}{2}$",Basic,$d=\frac{2p}{\pi}$,$d={\frac{\pi}{2}}-p$,$d=\frac{\pi}{2p}$,$d=\frac{2\pi}{p}$,,,20/03/2019 22:16,1,23/04/2019 19:26,37.0,1,4,1.0,317.0,Rearranging equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+11020,997,192,5,5.0,2,1,03/01/2021 17:10,,,38,, Find $\displaystyle \int \sqrt{1-x^2}\: dx$ ,Basic,$\displaystyle \frac{1}{2}\arcsin{(x)}+\frac{x}{2}\sqrt{1-x^2}+c$,"$\arcsin{(1-x^2)}+c$
+","$\sqrt{1-x^2}+c$
+",$x+c$,,,04/04/2019 0:14,1,26/09/2019 14:41,61.0,3,1,1.0,104.0,Trigonometric substitution,Integration,Integration Techniques
+10619,1781,646,18,7.0,1,1,05/12/2020 0:07,,,52,,"Suppose that $A=\left( \begin{array}{rrr}  
+-2  & -1 & 1 \\ 
+0 & 1 & 2\\
+2  & 1 & -2\end{array}
+\right)$, $B=\left( \begin{array}{rrr}  
+4  & 1 & 0\end{array}
+\right)$, and $C=\left( \begin{array}{rrr}  
+0  & 3 & -1\end{array}
+\right)$. Find $X$ if $X\cdot A-B=C$.",Basic,"$\left( \begin{array}{rrr}  
+1  & 2 & 3\end{array}
+\right)$","$\left( \begin{array}{rrr}  
+-2  & 0 & -1\end{array}
+\right)$","$\left( \begin{array}{rrr}  
+4  & 4 & -1\end{array}
+\right)$",given operation is not valid,,,12/05/2019 11:44,1,04/06/2019 12:51,67.0,3,1,1.0,114.0,Matrix multiplication,Linear Algebra,Matrices and Determinants
+6497,1352,423,18,10.0,4,-1,07/01/2020 19:52,,,72,,"Mark the vector which is not a linear combination of $u=(1,0,-3)$ and  $v=(0,-4,2)$.",Basic,"$(5,8,4)$","$(2,-8,-2)$","$(1,-4,-1)$","$\left(\frac{1}{3},-2,0\right)$.",,,30/04/2019 1:11,1,01/05/2019 22:53,38.0,1,1,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+15374,175,1251,26,,1,1,02/05/2022 0:24,,,37,,"Consider the table
+
+$$\begin{array}{c|cccc}
+x & 1 & 3 & 4 & 5   \\
+\hline
+y & 0 & 6 & 24 & 60 \\
+\end{array}$$
+
+Find the Newton's interpolational polynomial.",Basic,$P(x)=x^3-3x^2+2x$.,$P(x)=x^3+3x^2+2x$.,$P(x)=-x^3-3x^2+2x$.,$P(x)=x^3-3x^2-2x$.,,,01/06/2021 17:03,1,01/06/2021 17:10,37.0,3,2,1.0,269.0,Polynomial interpolation,Numerical Methods,
+10951,1778,647,18,7.0,1,0,28/12/2020 13:25,,,52,,Which of the following statements is correct?,Basic, Matrix multiplication is always commutative if both matrices are diagonal matrices,Matrix multiplication is always commutative if both matrices are symmetric matrices,Matrix multiplication is not always commutative if one matrix is the identity matrix,none of the options given are correct,,,12/05/2019 11:45,1,04/06/2019 12:52,67.0,4,4,1.0,115.0,Commuting matrices,Linear Algebra,Matrices and Determinants
+23172,3496,904,16,,1,0,21/01/2025 16:15,,,58,,Find the integral curve which satisfies the equation $tx'-x=-2t^2x^2$ with initial condition $x(1)=1$.,Basic,The integral curve that satisfies the initial condition is the curve $x(2t^3+1)-3t=0$.,The integral curve that satisfies the initial condition is the curve $x(2t^3+3)-t=0$.,The integral curve that satisfies the initial condition is the curve $\frac{x}{2t^3+1}-3t=0$.,The integral curve that satisfies the initial condition is the curve $x=\frac{2t^3+1}{3t}$.,,,15/07/2019 7:49,1,27/09/2019 10:57,61.0,1,1,1.0,199.0,Integral curve,Differential Equations,
+6223,168,375,18,11.0,4,0,07/01/2020 16:19,,,38,,"Consider the linear application $T:\mathbb{R}^2 \longrightarrow \mathbb{R}^2$ such that $T(x,y)= \left(2x-y,6x-3y\right)$. Choose the wrong answer.",Basic,"$dim\left(ker(T)\right)= 1$
+","$ker(T)=\left\{(0,0)\right\}$
+","$range(T)=\mathbb{R}^2$
+",$dim\left(range(T)\right)= 2$,,,27/04/2019 20:53,1,14/05/2019 13:01,61.0,1,2,1.0,159.0,Kernel,Linear Algebra,Linear Transformations
+5518,1288,438,18,10.0,2,-1,06/01/2020 15:21,,,81,,"Consider the matrix 
+$A=\left[\begin{array}{rr}
+ 2  & 1  \\
+  -1 & 3  
+\end{array}\right]$. 
+The subspaces $C_A$ of $\mathbb{R}^2$ generated by the columns of $A$ and the null space $N_A$ of $A$ are respectively: ",Basic,"$C_A=\mathbb{R}^2$, $N_A=\{ (0, 0)\}$","$C_A=\{(x+3y, 2y): x, y\in \mathbb{R}\}$, $N_A=\{(0, 0) \}$","$C_A=\mathbb{R}^2$,  $N_A=\{(x, -3x) \}$","$C_A=\{ \}$,  $N_A=\mathbb{R}^2$ ",,,30/04/2019 12:05,1,02/05/2019 18:53,38.0,3,2,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+1471,511,227,18,9.0,2,0,06/11/2019 20:12,,,43,,"Find the solutions $\left(\text{in } \mathbb{C}^2\right)$ of the following linear system:
+$$\begin{cases}
+z &- &iw &= &1 \\
+iz &- &w &= &1
+\end{cases}$$",Basic,"The system has $\bigg(\frac{1-i}{2},\frac{-1+i}{2}\bigg)$ as unique solution.",The system has no solutions.,"The system has $(z,-iz)$ as solution for every $z\in\mathbb{C}$.","The system has $\bigg(\frac{1-i}{2},\frac{1+i}{2}\bigg)$ as unique solution.",,,08/04/2019 11:17,1,27/04/2019 19:37,37.0,3,3,1.0,137.0,Square linear system,Linear Algebra,Linear Systems
+22223,3464,432,18,10.0,3,1,28/12/2024 12:27,,,72,,"The set $A=\left\{(1,0, 2), (0,1, a), (2,1, b), (1,2, 3)\right\}$ does not generate $\mathbb{R}^3$ when:",Advanced,$a=\dfrac{1}{2}$ and $b=\dfrac{9}{2}$,$a=1$ and $b=9$,$a=\dfrac{1}{2}$ and $b=9$,$a=\dfrac{1}{2}$ or $b=\dfrac{9}{2}$,,,30/04/2019 1:36,1,01/05/2019 23:32,38.0,4,3,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+448,151,108,7,2.0,7,0,31/05/2019 16:39,,,50,,"Make $a$ the subject of the expression
+
+$mz=ad$",Basic,$a=\frac{mz}{d}$,$a=\frac{d}{mz}$,$a=d+mz$,$a=d-mz$,,,20/03/2019 21:54,1,24/04/2019 0:31,37.0,1,4,1.0,317.0,Rearranging equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+12553,2198,188,14,,2,0,11/03/2021 15:48,,,41,,The Fire Safety Department conducted a study to determine the percentage of households in the country that have smoke detectors. $1000$ households were checked and $875$ of them had a detector. Identify the sample of interest.,Basic,The $1000$ households that were checked.,All the households of the country.,All the smoke detectors of the country., All the households that have a detector.,,,03/04/2019 20:20,1,05/05/2019 1:37,37.0,3,2,1.0,45.0,Sample,Statistics,
+16663,2963,613,7,2.0,7,1,28/10/2022 9:44,,,50,,"Simplify:
+
+$(x+y)(x^2 -xy+y^2)$",Basic,$x^3 +y^3$,$x^3 +2x^2y +xy^2 +y^3$,$x^2 +y^2$,$x-xy+y$,,,10/05/2019 12:25,1,09/09/2019 0:48,37.0,1,4,1.0,4.0,Quadratic equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+1279,511,118,7,2.0,1,0,04/11/2019 1:43,,,50,,"Make $r$ the subject of the expression
+
+$v=\dfrac{2}{3}\pi r^3$",Basic,\[ r = \sqrt[3]{\frac{3v}{2\pi}} \],\[r = \sqrt[3]{\frac{2\pi}{3v}} \],$r= \dfrac{2\pi}{3v^3}$,\[ r = \sqrt[3]{\frac{2v}{3\pi}} \],,,21/03/2019 15:03,1,10/05/2019 0:47,37.0,2,1,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+13828,1890,451,18,10.0,2,0,01/09/2021 9:13,,,81,,"Assume that $u$, $v$ and $w$ are vectors in $\mathbb{R}^4$ linearly independent. Choose the right answer.",Advanced,"$dim\left(span\left\{u,v,w\right\}\right)=3$","$dim\left(span\left\{u,v,w,u+v\right\}\right)=4$","The null vector cannot be written as a linear combination of $u$, $v$ and $w$","If $t\in \mathbb{R}^4$ then $t$ can be written as a linear combination of $u$, $v$ and $w$",,,02/05/2019 18:56,1,20/04/2021 23:03,64.0,4,3,1.0,150.0,Linear independence,Linear Algebra,Vector Spaces
+18964,3377,1007,12,13.0,3,1,10/01/2024 14:27,,,38,,"Conclude about the existence of local maxima, local minima, and saddle points of $f\left(x,y\right)=xy-x^3-y^2$.",Basic,There are $1$ local maximum and $1$ saddle point.,There are $1$ local minimum and $1$ saddle point.,There are $1$ local maximum and $1$ local minimum.,There is $1$ saddle point.,,,02/12/2019 1:55,1,02/12/2019 2:11,38.0,2,3,1.0,177.0,Minimum,Optimization,Nonlinear Optimization
+18628,3313,1216,26,,3,-1,22/06/2023 0:47,,,1545,,"Consider the following table of divided differences:
+
+$$\begin{array}{|l|c|c|c|c|c|c|}
+\hline
+\text{$x_i$} & \text{$f_i$} \\
+\hline
+-1.5 & -3.75 & & & & &  \\
+& & -2.50 & & &  \\
+-1.0 & -5.00 & & 3.00 & &  \\
+ & & 3.50 & & -4.00 &  \\
+0.5 & 0.25 & & A &  & 4.00 &  \\
+ & & -10.50 &  & 8.00 & & -0.13 \\
+1.0 & -5.00 &  & 13.00 & & B \\
+ & & 2.5 & & 18.67 &  \\
+1.5 & -3.75 & & 41.00 & &  \\
+ & & 43.50 & & &  \\
+2.0 & 18.00 & & & &  \\
+\hline
+\end{array}$$
+
+Complete the table by calculating $A$ and $B$.",Basic,"$A = -7.0, and B= 3.6$.","$A = 3.6, and B = -7.0$.","$A = -7.0, and B= 10.0$.","$A = 3.0, and B = 3.6$.",,,18/11/2020 19:36,1,20/12/2020 15:57,37.0,1,1,1.0,269.0,Polynomial interpolation,Numerical Methods,
+20545,3342,182,14,,1,1,31/05/2024 11:23,,,41,,"The monthly amounts of steam (in pounds) used in a sample of eight chemical plants are listed below. Calculate the standard deviation of the usage. Round the result to two decimal places.
+
+$$185, 214, 288, 424, 454, 540, 230, 490$$",Basic,$139.32$,$16984.86$,$130.33$,$19411.32$,,,03/04/2019 19:58,1,09/04/2019 1:42,37.0,2,3,1.0,45.0,Sample,Statistics,
+4684,1220,459,18,10.0,4,0,05/01/2020 1:20,,,81,,Choose the set of vectors which is not a spanning set of $\mathbb{R}^2$.,Basic,"$\left\{(4,-2),(-2,1)\right\}$","$\left\{(1,-1),(0,4)\right\}$","$\left\{(-1,5),(3,0),(0,0)\right\}$","$\left\{(0,1),(1,1),(1,0),(-2,2)\right\}$",,,02/05/2019 19:14,1,02/05/2019 19:15,38.0,2,1,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+14534,2455,142,4,3.0,1,1,16/10/2021 13:38,,,57,,Differentiate $y = (x^4 - 4x +1)^4$.,Basic,$\frac{dy}{dx} = 4(x^4 - 4x +1)^3(4x^3 - 4)$,$\frac{dy}{dx} = 4(x^4 - 4x +1)^3$,$\frac{dy}{dx} = 4(x^4 - 4x +1)(4x^3 - 4)$,$\frac{dy}{dx} = 4(x^4 - 4x + 1)$,,,29/03/2019 13:53,1,04/04/2019 23:07,37.0,1,1,1.0,85.0,Product rule,Differentiation,Derivatives
+4969,1220,454,18,10.0,4,0,05/01/2020 14:37,,,81,,Choose the set of vectors which is a basis for $\mathbb{R}^2$.,Basic,"$\left\{(1,1)(-3,4)\right\}$","$\left\{(0,1)\right\}$","$\left\{(3,0),(6,0)\right\}$","$\left\{(0,1),(1,0),(2,2)\right\}$",,,02/05/2019 19:08,1,02/05/2019 19:13,38.0,1,1,1.0,151.0,Basis,Linear Algebra,Vector Spaces
+14437,2589,665,7,2.0,1,1,14/10/2021 17:27,,,50,,"Consider that $F \neq0$. Solve for $C$:
+
+$F=\dfrac{9}{5}C+32$",Basic,$C= \dfrac{5}{9}(F-32)$,$C= \dfrac{9}{5}(F-32)$,$C= \dfrac{5}{9}(F+32)$,$C= \dfrac{5}{9}(32-F)$,,,14/05/2019 17:24,1,09/09/2019 0:59,37.0,2,4,1.0,3.0,Linear equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+621,200,613,7,2.0,7,1,26/09/2019 11:17,,,50,,"Simplify:
+
+$(x+y)(x^2 -xy+y^2)$",Basic,$x^3 +y^3$,$x^3 +2x^2y +xy^2 +y^3$,$x^2 +y^2$,$x-xy+y$,,,10/05/2019 12:25,1,09/09/2019 0:48,37.0,1,4,1.0,4.0,Quadratic equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+9797,1835,668,7,2.0,1,0,17/11/2020 20:01,,,50,,"Solve for $t$:
+
+$\dfrac {15}{3t^2}= \dfrac{2}{5}$",Basic,$t=\pm3.54$,$t=3.54$,$t=\pm0.71$,$t=0.71$,,,14/05/2019 17:48,1,09/09/2019 1:04,37.0,2,1,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+20909,2977,611,7,2.0,7,1,07/06/2024 10:29,,,50,,"Simplify:
+
+$(x+y) +(3x-y)$
+
+
+",Basic,$4x$,$4x+y$,$2x-y$,$2x$,,,10/05/2019 12:19,1,09/09/2019 0:46,37.0,1,4,1.0,3.0,Linear equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+4099,1244,435,18,10.0,3,-1,02/01/2020 19:51,,,81,,"Consider the subsets  $\displaystyle A=\{(1, 1, 1), (0, 1, 1), (1, 2, 3)\}$ and $\displaystyle B=\left\{(1, 1, 1), \left(-\frac{2}{3}, \frac{1}{3}, \frac{1}{3}\right), \left(0, -\frac{1}{2}, \frac{1}{2}\right)\right\}$ of $\mathbb{R}^3$. Choose the right answer:",Basic,$B$ is an orthogonal basis of $\mathbb{R}^3$ but $A$ isn't an orthogonal basis of $\mathbb{R}^3$,$A$ is an orthogonal basis of $\mathbb{R}^3$ but $B$ isn't an orhtogonal basis of $\mathbb{R}^3$,$A$ and $B$ are both orthogonal basis of of $\mathbb{R}^3$,$A$ and $B$ are both non-orthogonal basis of $\mathbb{R}^3$,,,30/04/2019 12:01,1,01/05/2019 23:47,38.0,4,2,1.0,151.0,Basis,Linear Algebra,Vector Spaces
+21062,3412,131,18,7.0,1,0,11/06/2024 9:25,,,52,,"What is the determinant of the matrix  $A=\left( 
+ \begin{array}{rrrr}
+x & 0 &  0 & -x  \\ 
+0 & -x & -1 & 1  \\ 
+ 1 & 0 & x & -1  \\ 
+x & 0 &  0 & 1 \end{array}
+\right)$, $x\neq 0$?",Basic,$-x^3 \left(1+x \right)$,$x^2+x^4$,$x^3+x^4$,$0$,,,24/03/2019 14:21,1,07/05/2019 15:35,52.0,3,1,1.0,114.0,Matrix multiplication,Linear Algebra,Matrices and Determinants
+5924,972,781,18,11.0,4,-1,07/01/2020 0:34,,,81,,"$F: M_{22}\rightarrow \mathbb{R}^2$, such that $F\left(\left[\begin{array}{cc}
+ x & y\\
+ z & w
+\end{array}\right]\right)=(x-y, z+w)$ be a linear application. Choose the right answer:",Advanced,"$Ker(T)=\left\{(x,x,z,-z): x, z\in \mathbb{R}\right\}$ and $range(T)=\mathbb{R}^2$","$Ker(T)=\left\{(x,x,x,-x): x\in \mathbb{R}\right\}$ and $range(T)=\mathbb{R}^2$","$Ker(T)=\left\{(0,0,0,0)\right\}$ and $range(T)=\mathbb{R}^4$","$Ker(T)=\left\{(x,-x): x\in \mathbb{R}\right\}$ and $range(T)=\mathbb{R}^2$",,,21/06/2019 18:24,1,04/10/2019 10:19,61.0,5,4,1.0,159.0,Kernel,Linear Algebra,Linear Transformations
+12766,2231,394,5,5.0,1,1,18/04/2021 20:51,,,38,,"Find $\displaystyle\int\dfrac{\ln^3\left(2x+2\right)}{x+1}\, dx$.",Basic,$\displaystyle \dfrac{1}{4}\ln ^4\left(2\left(x+1\right)\right)+c$,"$\displaystyle \dfrac{1}{8}\ln ^4\left(2\left(x+1\right)\right)+c$
+","$\displaystyle \dfrac{2\ln^4\left(2x+2\right)}{(x+1)^2}+c$
+",$\displaystyle \dfrac{1}{2}\ln^2\left(2x+2\right)+c$,,,28/04/2019 17:38,1,28/04/2019 19:25,38.0,2,1,1.0,101.0,Substitution,Integration,Integration Techniques
+19693,80,506,7,1.0,1,0,31/01/2024 19:17,,,91,,Find the correct relationship between the type of triangle and the number of lines of symmetry.,Basic,An equilateral triangle has 3 lines of symmetry.,An isosceles triangle has 2 lines of symmetry.,A scalene triangle has 1 line of symmetry.,An equilateral triangle has 6 lines of symmetry.,,,04/05/2019 21:32,1,27/12/2021 16:34,37.0,1,1,1.0,20.0,Symmetry,Fundamental Mathematics,Elementary Geometry
+10703,1798,917,18,9.0,3,1,13/12/2020 19:16,,,43,,"Describe the solutions of the following linear system:
+$$\begin{cases}
+x & + & 2y & - & 3z & = & 4 \\
+x & + & 3y & - & z & = & 11 \\
+2x & + & 5y & - & 5z & = & 13 \\
+x & + & 4y & + & z & = & 18
+\end{cases}$$",Basic,"The linear system has $\left(4,\,3,\,2\right)$ as its unique solution.","The linear system has $\left(4,\,2,\,3\right)$ as its unique solution.",The linear system has no solutions.,"The linear system has infinitely many solutions, which are of the form $\left(2z,\,z+1,\,z\right)$ for each $z\in\mathbb{R}$.",,,26/07/2019 11:46,1,01/08/2019 1:45,64.0,1,5,1.0,138.0,Solution of a linear system,Linear Algebra,Linear Systems
+5967,988,230,18,9.0,3,0,07/01/2020 2:37,,,43,,"Find the solutions of the following linear system:
+$$\begin{cases}
+2x &+ &y &- &z &= &1 \\ 
+x &+ &y &+ &z &= &2 \\ 
+x &- &y &- &z &= &0
+\end{cases}$$",Basic,"The system has $\left(1,0,1\right)$ as its unique solution.",The system has no solutions.,"The system has $\left(1,0,1\right)$ and $\left(1,0,-1\right)$ as its solutions.","The system has $\left(x,0,x\right)$ as solution for every $x\in\mathbb{R}$.",,,08/04/2019 11:33,1,27/04/2019 19:47,37.0,1,4,1.0,137.0,Square linear system,Linear Algebra,Linear Systems
+10056,1809,360,10,,1,1,24/11/2020 19:09,,,78,,If $z=1+\sqrt{3}i$ and $w=\sqrt{3}+i$ then,Basic,$z w=4i$,$z w=\cos\left(\dfrac{\pi}{2}\right)-i\sin\left(\dfrac{\pi}{2}\right)$,$z w=4\operatorname{e}^{-i\frac{\pi}{2}}$,$z w=\operatorname{e}^{i\frac{\pi}{6}}$,,,26/04/2019 22:17,1,27/04/2019 17:53,37.0,1,5,1.0,24.0,Imaginary part,Complex Numbers,
+13333,2324,1089,26,,3,0,08/06/2021 12:19,,,37,,Consider $x^3+5=9x$. Find $x_3$ using the secant method (considering $x_0=0.5$ and $x_1$=1.0).,Basic,$x_3=0.57568$,$x_3=0.61565$,$x_3=0.47567$,$x_3=0.51565$,,,14/06/2020 18:33,1,28/06/2020 20:50,37.0,4,4,1.0,224.0,Nonlinear equation,Numerical Methods,
+2406,776,576,25,,3,1,30/11/2019 14:35,,,81,,"An equation of the plane containing the point $A=(2, -3, 0)$ and the line of equation $\dfrac{x-2}{2}=\dfrac{-y}{3}=z+2$ is: ",Advanced,$3x+4y+6z+6=0$.,$3x+4y+6z-18=0$.,$3x-4y+6z+6=0$.,$x-y+z+5=0$.,,,07/05/2019 13:16,1,12/05/2019 23:35,38.0,4,3,1.0,65.0,Cross product,Analytic Geometry,
+17026,3135,910,12,13.0,4,0,29/11/2022 11:16,,,155,,"The point $P=(x,y,z)$ on the plane $2x+y-z-5=0$ closest to the origin is:",Basic,"$\left( \dfrac{5}{3},\dfrac{5}{6},-\dfrac{5}{6}\right)$.","$\left(- \dfrac{5}{3},\dfrac{5}{6},-\dfrac{1}{2}\right)$.","$\left( \dfrac{5}{3},\dfrac{5}{6},\dfrac{1}{2}\right)$.",No solution.,,,23/07/2019 11:20,1,17/06/2020 10:54,37.0,4,3,1.0,177.0,Minimum,Optimization,Nonlinear Optimization
+10226,1829,952,18,9.0,3,0,27/11/2020 0:41,,,43,,"Solve the following linear system:
+$$\begin{cases}
+x & + & 2y & - & 3z & + & w & = & -2 \\
+3x & - & y & - & 2z & - & 4w & = & 1 \\
+2x & + & 3y & - & 5z & + & w & = & -3 \\
+x & + & y & - & z & + & w & = & -2
+\end{cases}$$
+",Basic,The system has no solutions.,"The system has $\left(z+w,\,z-w-1,\,z,\,w\right)$ as solution for all $z,w\in\mathbb{R}$.","The system has $\left(1,\,2,\,2,\,1\right)$ as its unique solution.","The system has $\left(x,\,y,\,x+y,\,x-y-1\right)$ as solution for all $x,y\in\mathbb{R}$.",,,17/09/2019 11:50,1,24/09/2019 16:17,43.0,2,4,1.0,137.0,Square linear system,Linear Algebra,Linear Systems
+18379,3317,215,18,,4,-1,19/06/2023 18:23,,,38,,"Find the solution of the following linear system: 
+$$\begin{cases}
+&x &+ &y &+ &z &= &5 \\
+&5x &+ &3y &+ &2z &= &0 \\
+& & &y &- &z &= &0
+\end{cases}$$",Basic,"The solution is the vector $(-5,5,5)$.","The solution is the vector $(-5,0,5)$.","The solution is the vector $(-1,8,5)$.","The solution is the vector $(0,5,1)$.",,,06/04/2019 21:59,1,07/04/2019 0:25,37.0,1,5,1.0,137.0,Square linear system,Linear Algebra,
+22983,3514,1033,4,4.0,2,1,16/01/2025 21:23,,,80,,"Consider the function $\displaystyle f(s,t) = \sqrt[3]{4-6s^2-10t}$. Find $\dfrac{\partial f}{\partial t}$.",Basic,$\dfrac{\partial f}{\partial t} = \dfrac{-10}{3\sqrt[3]{(4-6s^2-10t)}^2}$,$\dfrac{\partial f}{\partial t} = \dfrac{-10}{3\sqrt[3]{(4-6s^2-10t)}}$,$\dfrac{\partial f}{\partial t} = \dfrac{-10}{\sqrt[3]{(4-6s^2-10t)}}$,$\dfrac{\partial f}{\partial t} = \dfrac{10}{3\sqrt[3]{(4-6s^2-10t)}^2}$,,,08/01/2020 18:22,1,08/05/2020 15:56,37.0,3,2,1.0,97.0,Gradient,Differentiation,Partial Differentiation
+7016,1314,289,18,11.0,4,0,08/01/2020 17:51,,,38,,"Consider the linear transformation $F: \mathbb{R}^3\rightarrow \mathbb{R}^2$ defined by $F(x, y, z)=(5z, x+2y)$. 
+Let the kernel, $ker(F)$ and the space image of $F$, $range(F)$, respectively.  Choose the right answer:",Advanced,"$(2, -1, 0) \in ker(F)$ and $(1, 1) \in range(F)$ 
+","$(0, 0) \in ker(F)$ and $(1, 1) \in range(F)$
+","$(3, 5) \in ker(F)$ and $(1, -1, 2) \in range(F)$
+","$((2, -1, 0)\in ker(F)$ and $(1, -1, 2) \notin range(F)$ ",,,26/04/2019 15:44,1,14/05/2019 11:53,61.0,5,4,1.0,159.0,Kernel,Linear Algebra,Linear Transformations
+11016,1809,536,5,,4,1,02/01/2021 0:13,,,38,,Find the area of the region bounded by  $\displaystyle y=1-x^2$ and $\displaystyle y=x^2-3$.,Basic,"$\displaystyle\frac{16\sqrt{2}}{3}$
+","$\displaystyle\frac{16\sqrt{3}}{3}$ 
+","$\displaystyle\frac{18\sqrt{2}}{3}$ 
+",$\displaystyle\frac{16\sqrt{2}}{5}$,,,05/05/2019 18:04,1,05/05/2019 19:59,37.0,3,3,1.0,110.0,Area ,Integration,
+5947,851,277,18,11.0,3,-1,07/01/2020 1:21,,,38,,"Consider the applications that transform vectors of $\mathbb{R}^3$ into vectors of $\mathbb{R}^2$.
+
+$\begin{array}{cccc}
+F:& \mathbb{R}^3 & \rightarrow  & \mathbb{R}^2 \\
+  & (x, y, z) & \longrightarrow & (x-y^2, 2y+z)
+\end{array}
+\begin{array}{cccc}
+G:& \mathbb{R}^3 & \rightarrow  & \mathbb{R}^2 \\
+  & (x, y, z) & \longrightarrow & (x-y+z, 2y+z)
+\end{array} 
+\begin{array}{cccc}
+H:& \mathbb{R}^3 & \rightarrow  & \mathbb{R}^2 \\
+  & (x, y, z) & \longrightarrow & (x-y+z, 2y+z-1)
+\end{array}
+\begin{array}{cccc}
+J:& \mathbb{R}^3 & \rightarrow  & \mathbb{R}^2 \\
+  & (x, y, z) & \longrightarrow & (x-y, 3z+2x)
+\end{array} $
+
+Which ones  are linear applications?",Basic,"$G, J$ ","$G, H, J$","$F, G, J$
+","$F, G, H$",,,24/04/2019 18:51,1,14/05/2019 11:34,61.0,1,2,1.0,156.0,Linearity,Linear Algebra,Linear Transformations
+9922,1779,921,3,39.0,3,0,22/11/2020 17:10,,,42,,Determine which of the following functions is nonincreasing.,Basic,$f(x)=2^{-x}$,$f(x)=2^{x}$,$f(x)=x^{-2}$,$f(x)=x^{2}$,,,29/07/2019 16:53,1,01/08/2019 1:51,64.0,1,1,1.0,340.0,Monotonicity of a function,Real Functions of a Single Variable,"Domain, Image and Graphics"
+14884,2646,635,18,7.0,3,0,13/12/2021 15:10,,,52,,"Compute the determinant of $\left( 
+  \begin{array}{rrrrrr}
+1 & -1 & 2 & 3 & -1 & 2 \\ 
+0 & 1 & 3 & -1 & 2 & 3 \\
+0 & 0 & 1 & -1 & 2 & 3 \\
+0 & 0 & 0 & 1 & -1 & 2 \\
+0 & 0 & 0 & 0 & 1 & 3 \\
+0 & 0 & 0 & 0 & 0 & 1 \end{array} \right)$.",Basic,$1$,$0$,$3$,undefined,,,12/05/2019 11:16,1,12/05/2019 11:33,52.0,1,2,1.0,119.0,Matrix condensation,Linear Algebra,Matrices and Determinants
+20120,71,1472,10,,5,1,22/04/2024 7:56,,,2956,,"Let $W$ and $V$ be the set of roots in $\mathbb{C}$ of the equations $x^2-2x-1=0$ and $x^4+13x^2+36=0$, respectively.
+Consider $U = V \cup W$.
+The sum of the squares of the elements in $U$ is:",Advanced,$-20$,$4i$,$10$,$-7i$,,,07/02/2023 17:34,1,17/02/2023 15:41,64.0,2,2,1.0,33.0,Operations with complex numbers,Complex Numbers,
+5039,1220,434,18,10.0,3,1,05/01/2020 17:14,,,81,,"Consider the spaces $S_1=\mathbb{R}^2$ and $S_2=\{(x, y)\in \mathbb{R}^2: x-2y=0\}$. 
+The dimensions $d_1$ of $S_1\cap S_2$ and $d_2$ of $S_1+S_2$ are: ",Basic,"$d_1=1, \quad d_2=2$ ",$d_1= d_2=2$,"$d_1=0, \quad d_2=2$","$d_1=2, \quad d_2=1$",,,30/04/2019 11:58,1,01/05/2019 23:37,38.0,3,2,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+11154,1877,788,7,2.0,5,1,07/01/2021 12:52,,,50,,"Solve for $x$:
+
+$5^{x+1}=2^{3x-2}$",Basic,$x=6.38$,$x=0.16$,$x=0.48$,$x=0.81$,,,26/06/2019 21:54,1,02/10/2019 12:37,58.0,4,2,1.0,2.0,Exponential function,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+6742,1275,446,18,10.0,1,-1,08/01/2020 15:55,,,81,,"Consider the basis $A = \{(1,0), (0,1)\}$ and $B =\{(1,2), (-4, -3)\}$ of $\mathbb{R}^2$. 
+Then the base change matrix from the base $B$ to the base $A$ and the base change matrix from the base $A$ to the base $B$ are respectively: ",Advanced,"$P^B_A= \left[\begin{array}{rr}
+ 1  & -4  \\
+  2 & -3  
+\end{array}\right],$  $\quad P^A_B= \left[\begin{array}{rr}
+ -\frac{3}{5}  & \frac{4}{5}  \\
+  -\frac{2}{5} & \frac{1}{5} 
+\end{array}\right]$","$\displaystyle P^B_A= \left[\begin{array}{rr}
+ -\frac{3}{5}  & \frac{4}{5}  \\
+  -\frac{2}{5} & \frac{1}{5}
+\end{array}\right] $,  $ \quad P^A_B= \left[\begin{array}{rr}
+ 1  & -4  \\
+  2 & -3  
+\end{array}\right]$","$P^B_A= \left[\begin{array}{rr}
+ 1  & -\frac{1}{4}  \\
+  \frac{1}{2} & -\frac{1}{3} 
+\end{array}\right],  \quad$   $P^A_B= \left[\begin{array}{rr}
+ 1  & -4  \\
+  2 & -3  
+\end{array}\right]$","$P^B_A= \left[\begin{array}{rr}
+ 1  & -4  \\
+  2 & -3  
+\end{array}\right],  \quad$  $P^A_B= \left[\begin{array}{rr}
+ 1  & -\frac{1}{4}  \\
+  \frac{1}{2} & -\frac{1}{3} 
+\end{array}\right]$",,,02/05/2019 17:55,1,02/05/2019 19:22,38.0,5,4,1.0,148.0,Span,Linear Algebra,Vector Spaces
+568,189,665,7,,1,1,24/09/2019 21:04,,,50,,"Consider that $F \neq0$. Solve for $C$:
+
+$F=\dfrac{9}{5}C+32$",Basic,$C= \dfrac{5}{9}(F-32)$,$C= \dfrac{9}{5}(F-32)$,$C= \dfrac{5}{9}(F+32)$,$C= \dfrac{5}{9}(32-F)$,,,14/05/2019 17:24,1,09/09/2019 0:59,37.0,2,4,1.0,3.0,Linear equations,Fundamental Mathematics,
+20556,3342,1343,28,47.0,2,1,31/05/2024 13:52,,,2956,,"Anna and Josh decided to pick apples from a tree for 10 days.
+
+Anna decided to pick 5 apples on the first day and every day that passed she would pick 3 more apples than the day before.
+
+Josh decided to pick 3 apples on the first day and every day that passed he would pick 4 more apples than the day before.
+
+Was there a day when Anna and Josh picked the same number of apples? If yes, what days were they?",Basic,$3^{rd}$ day,$10^{th}$ day,$5^{th}$ day,They never picked the same number of apples.,,,08/08/2022 16:31,1,10/10/2022 19:00,64.0,2,4,1.0,299.0,Arithmetic sequence,Discrete Mathematics,Recursivity
+9800,1835,614,7,2.0,7,0,17/11/2020 20:07,,,50,,"Simplify:
+
+$\dfrac{(3x +4x)(5x-x)}{(6x-7x)}$",Basic,$-28x$,$-28$,$-x$,$-13$,,,10/05/2019 12:39,1,09/09/2019 0:49,37.0,1,4,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+1505,509,776,18,,2,0,06/11/2019 21:00,,,81,,"Consider the linear transformation $F:\mathbb{R}^2 \longrightarrow \mathbb{R}^2$, such that $F(x, y)=(x+2y, 2x+3y)$. Choose the right answer: ",Basic,"$F^{-1}$ is a symmetric operator defined by $F^{-1}(x,y)=(-3x+2y, 2x-y)$.",$F^{-1}$ does not exist.,"$F^{-1}$ is defined by $F^{-1}(x,y)=(3x-2y, -2x+y)$ and is not a symmetric operator.","$F^{-1}$ is a symmetric operator defined by $F^{-1}(x,y)=(3x-2y, 2x-y)$.",,,21/06/2019 18:11,1,14/07/2019 12:19,61.0,3,1,1.0,161.0,Injective linear transformation,Linear Algebra,
+16825,3125,965,12,12.0,1,-1,22/11/2022 12:05,,,37,,"The Childfair Company has three plants producing child push chairs that are to be shipped to four distribution centers. Plants $1$, $2$, and $3$ produce $12$, $17$, and $11$ shipments per month, respectively. Each distribution center needs to receive $10$ shipments per month. The distance (in miles) from each plant ($i$) to the respective distributing centers ($j$) is given below:
+
+\[
+\begin{array}{c|c|c|c|c}
+\text{Plant Dist. Center} & \text{1} & \text{2} & \text{3}  & \text{4}  \\
+\text{1} & 800  & 1300 &  400 & 700\\
+\text{2} & 1100 & 1400 &  600 & 1000 \\
+\text{3} & 600  & 1200 &  800 & 900\\
+\end{array}
+\]	
+
+The freight cost for each shipment is $100.50?$ per mile. Use the transportation simplex method to determine how much should be shipped from each plant to each of the distribution centers each month, to minimize the total shipping cost. Use the minimum cost rule to obtain an initial basic feasible solution.
+
+Choose the right answer:",Basic,"$x_{13} = 2, x_{14} = 10, x_{22} = 9, x_{23} = 8, x_{31} = 10, x_{32}= 1 \text{, other } x_{ij}=0$","$x_{11} = 10, x_{13} = 2, x_{22} = 10, x_{24} = 7, x_{33} = 8, x_{34}= 3 \text{, other } x_{ij}=0$","$x_{11} = 10, x_{13} = 2, x_{22} = 9,  x_{24}= 8, x_{32}= 1, x_{33}= 8 \text{, other } x_{ij}=0$ ","$x_{12} = 2, x_{13} = 10, x_{22} = 8, x_{24} = 9, x_{31}= 10, x_{34}= 1 \text{, other } x_{ij}=0$ ",,,19/11/2019 19:52,1,11/12/2019 15:51,61.0,3,1,1.0,167.0,Simplex method,Optimization,Linear Optimization
+7742,1308,293,18,11.0,2,0,15/01/2020 4:02,,,38,,"Let $T:\mathbb{R}^2\longrightarrow \mathbb{R}^3$ be the linear transformation given by $T(x,y)=(2x,y,4x-3y)$. The range of $T$ is:",Advanced,"$\left\{(a,b,c)\in \mathbb{R}^3: c=2a-3b\right\}$ 
+","$\mathbb{R}^3$ 
+","$\left\{(a,b,c)\in \mathbb{R}^3: c=4a-3b\right\}$
+","$\left\{(a,b,c)\in \mathbb{R}^3: c=2a-5b\right\}$",,,26/04/2019 16:08,1,14/05/2019 12:07,61.0,4,1,1.0,159.0,Kernel,Linear Algebra,Linear Transformations
+5423,1075,885,4,4.0,4,-1,06/01/2020 11:16,,,155,,"Consider the differentiable function $f:\mathbb{R}^{2}\rightarrow \mathbb{R},$ $%
+f(x,y)=e^{ax^{2}+by^{2}}$. It satisfies the equations:",Basic,"$\dfrac{\partial f}{\partial x}\left( x,y\right) =2axf(x,y),
+\dfrac{\partial^{2}f}{\partial x^{2}}\left( x,y\right) =\left( 2a+4a^{2}x^{2}\right) f(x,y),%
+\dfrac{\partial ^{2}f}{\partial x\partial y}(x,y)=4abxyf(x,y).$","$\dfrac{\partial f}{\partial x}\left( x,y\right) =2af(x,y),\dfrac{\partial
+^{2}f}{\partial x^{2}}\left( x,y\right) =\left( 2a+4a^{2}x^{2}\right) f(x,y),%
+\dfrac{\partial ^{2}f}{\partial x\partial y}(x,y)=4abxyf(x,y).$","$\dfrac{\partial f}{\partial x}\left( x,y\right) =2axf(x,y),\dfrac{\partial
+^{2}f}{\partial x^{2}}\left( x,y\right) =\left( 2a+4a^{2}x\right) f(x,y),%
+\dfrac{\partial ^{2}f}{\partial x\partial y}(x,y)=4abf(x,y).$","$\dfrac{\partial f}{\partial x}\left( x,y\right) =2axf(x,y),\dfrac{\partial
+^{2}f}{\partial x^{2}}\left( x,y\right) =\left( 2a+4a^{2}x^{2}\right) f(x,y),%
+\dfrac{\partial ^{2}f}{\partial x\partial y}(x,y)=4bxyf(x,y).$",,,14/07/2019 19:25,1,26/11/2019 19:24,38.0,4,2,1.0,99.0,Second order,Differentiation,Partial Differentiation
+19020,3364,1246,12,13.0,2,0,10/01/2024 14:48,,,2162,,"Find the relative extrema of the function $f$: $\mathbb{R} \rightarrow \mathbb{R}$,  $f(x)=2x^3-12x^2$.",Basic," $x=0$ is a maximizer, and $x=4$ is a minimizer."," $x=1$ is a maximizer, and $x=4$ is a minimizer."," $x=0$ is a maximizer, and $x=2$ is a minimizer.", $x=2$ is a maximizer.,,,27/04/2021 18:41,1,26/12/2021 22:53,37.0,1,2,1.0,177.0,Minimum,Optimization,Nonlinear Optimization
+11271,1864,334,10,,6,0,10/01/2021 19:05,,,78,,The polar form of $z=1+i$ is,Basic,$z=\sqrt{2}\operatorname{e}^{i\frac{\pi}{4}}$,$z=\dfrac{\sqrt{2}}{2}\operatorname{e}^{i\frac{3\pi}{4}}$,$z=\sqrt{2}\operatorname{e}^{-i\frac{\pi}{4}}$,$z=\dfrac{\sqrt{2}}{2}\operatorname{e}^{i\frac{\pi}{4}}$,,,26/04/2019 19:32,1,27/04/2019 17:37,37.0,2,5,1.0,25.0,Modulus of a complex number,Complex Numbers,
+7953,741,475,22,,4,0,18/01/2020 5:46,,,64,,"The adjacency matrix
+
+$\begin{pmatrix}
+0 & 1 & 0 & 1 \\
+1 & 0 & 1 & 1 \\
+0 & 1 & 0 & 0 \\ 
+1 & 1 & 0 & 0 
+\end{pmatrix}$ represents the graph",Basic,(b).,(a).,(c).,(d).,graphs10.jpg,jpg,02/05/2019 20:02,1,14/05/2019 11:15,61.0,2,3,1.0,75.0,Simple graph,Graph Theory,
+18949,3352,963,12,13.0,2,1,10/01/2024 14:26,,,37,,Which of the following constraints is not linear?,Basic,$2xy + x \geq 15$,$7x - 6y \leq 45$,$x + y + 3z = 35$,$2x + 10y \geq 60$,,,17/11/2019 2:37,1,26/11/2019 18:43,38.0,1,2,1.0,177.0,Minimum,Optimization,Nonlinear Optimization
+19743,3342,548,25,,1,0,01/02/2024 11:07,,,81,,"Consider the unusual scalar product of $\mathbb{R}^3$ defined by $(x_1, y_1)\cdot (x_2, y_2)=4x_1x_2+3y_1y_2$ and consider the vectors $u=(1, -4)$ and $v=(3, 2)$.
+The scalar product, $u \cdot v$, and the magnitude of $u$, $|u|$, are respectively:",Basic,"$u\cdot v= -12, \quad |u|= 2\sqrt{13}$.","$u\cdot v= -12, \quad |u|= 4\sqrt{13}$.","$u\cdot v= -5, \quad |u|= \sqrt{17}$."," $u\cdot v= -12, \quad |u|= \sqrt{17}$.",,,07/05/2019 10:05,1,07/05/2019 17:04,38.0,1,2,1.0,64.0,Scalar product,Analytic Geometry,
+15220,2896,1092,26,,2,-1,27/04/2022 19:36,,,37,,Consider $x=\cos(x)$. Find $x_4$ using Newton's method considering $x_0=1$.,Basic,$x_4=0.739085$,$x_4=0.739111$,$x_4=0.839111$,$x_4=0.839085$,,,14/06/2020 18:37,1,15/06/2020 18:23,38.0,3,3,1.0,223.0,Newton?s method,Numerical Methods,
+886,414,331,10,,1,0,11/10/2019 13:00,,,78,,The solution set of the equation $2z^2+7=0$ is:,Basic,"$S\left\{-i\sqrt{\dfrac{7}{2}} \ , \ i\sqrt{\dfrac{7}{2}}\right\}$","$S\left\{-\sqrt{\dfrac{7}{2}} \ , \ \sqrt{\dfrac{7}{2}}\right\}$","$S\left\{\dfrac{7}{2}-i\sqrt{\dfrac{7}{2}} \ \ , \ \ \dfrac{7}{2}+i\sqrt{\dfrac{7}{2}}\right\}$","$S\left\{-\dfrac{7}{2}-i\sqrt{\dfrac{7}{2}} \ \ , \ \ -\dfrac{7}{2}+i\sqrt{\dfrac{7}{2}}\right\}$",,,26/04/2019 19:17,1,27/04/2019 17:34,37.0,1,5,1.0,24.0,Imaginary part,Complex Numbers,
+2971,387,449,18,10.0,1,0,10/12/2019 10:17,,,81,,"Consider the vector $v=(-1, 2, 3)$ and the subspace $S$ generated by the vectors $u_1=(-1, 0, 1)$ and $u_2=(0, 3, -3)$ of $\mathbb{R}^3$. 
+What is the value of the distance from $v$ to $S$?",Advanced,$\dfrac{\sqrt{30}}{2}$,$\sqrt{3}$,$\sqrt{15}$,$1$ ,,,02/05/2019 18:38,1,02/05/2019 19:28,38.0,4,3,1.0,153.0,Euclidean spaces,Linear Algebra,Vector Spaces
+16658,2963,560,25,,2,1,28/10/2022 9:14,,,81,,"The cartesian equation of the perpendicular bisector of the segment with endpoints $A=(1, 2,3)$ and $B=(2, 0, 1)$ is:",Basic,$2x-4y-4z+9=0$.,$x+2y+3z=1$.,$x-2y-2z+3=0$.,$x-2y-2z=0$.,,,07/05/2019 10:26,1,07/05/2019 17:30,38.0,4,3,1.0,64.0,Scalar product,Analytic Geometry,
+5450,1049,269,4,,1,0,06/01/2020 12:58,,,66,,"Find $\dfrac{?^2z}{?y?x}$  of $z(x,y)=8x^2y^3-4x^3+14y^2$",Basic,"$\dfrac{?^2z}{?y?x}(x,y)=48xy^2$","$\dfrac{?^2z}{?y?x}(x,y)=24x^2y^2$","$\dfrac{?^2z}{?y?x}(x,y)=24x^2y$","$\dfrac{?^2z}{?y?x}(x,y)=48x^2y^2$",,,12/04/2019 22:58,1,16/08/2019 23:13,37.0,2,3,1.0,99.0,Second order,Differentiation,
+3528,1147,429,18,10.0,2,0,23/12/2019 1:38,,,72,,"Indicate which of the following is a linear combination of $A=\left[\begin{array}{rr}
+      3& 2\\
+			0 & 1 
+    \end{array}\right]$, $B=\left[\begin{array}{rr}
+      0& -1 \\
+			1 & 2 
+    \end{array}\right]$ and $C=\left[\begin{array}{rr}
+      5& 4 \\
+			-1 & 0
+    \end{array}\right]$.",Basic,"$\left[\begin{array}{rr}
+      5 & 3 \\
+      0 & 2
+    \end{array}\right]$","$\left[\begin{array}{rr}
+      8& 5 \\
+			0 & -3 
+    \end{array}\right]$","$\left[\begin{array}{rr}
+      3 & 1 \\
+      3 & 3 
+    \end{array}\right]$","$\left[\begin{array}{rr}
+      8 &  -1\\
+   6 & 1
+    \end{array}\right]$",,,30/04/2019 1:26,1,01/05/2019 23:05,38.0,3,2,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+16061,2999,792,7,2.0,3,1,22/09/2022 14:17,,,50,,"Solve for $x$:
+
+$\log_{3}{x}=5$",Advanced,$x=243$,$x=125$,$x=\pm 243$,$x=\pm 125$,,,27/06/2019 0:25,1,27/09/2019 7:40,61.0,3,2,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+2765,884,415,18,10.0,4,1,09/12/2019 12:01,,,72,,"Let $A= \{(1, -2, 0), (2, 3, 2), (3, 1, 2)\}$ and $B= \{(1, -2, 0), (1, 0, 2), (1, -1, 3)\}$ be sets of vectors of $\mathbb{R}^3$. Choose the right answer: ",Basic,$B$ is linearly independent but $A$ is not,$A$ and $B$ are linearly independent,$A$ is linearly independent but $B$ is not,$A$ and $B$ are linearly dependent ,,,29/04/2019 15:46,1,01/05/2019 22:38,38.0,1,1,1.0,148.0,Span,Linear Algebra,Vector Spaces
+6265,988,89,18,9.0,4,0,07/01/2020 16:36,,,43,,"How many solutions does the following linear system have?
+$$\begin{cases}
+2x & + & 3y & - & z & = & 1 \\
+x & - & y & + & 4z & = & -2 \\
+x & - & 6y & + & 13z & = & -7
+\end{cases}$$",Basic,The system has infinitely many solutions depending on one parameter.,The system has no solutions.,The system has two solutions.,The system has a unique solution.,,,11/03/2019 12:25,1,06/04/2019 17:58,38.0,2,5,1.0,139.0,Consistent system,Linear Algebra,Linear Systems
+10923,1893,189,14,,1,1,26/12/2020 10:30,,,41,,The Fire Safety Department conducted a study to determine the percentage of households in the country that have smoke detectors. $1000$ households were checked and $875$ of them had a detector. Identify the population of interest in this case.,Basic,All the households of the country. ,All the smoke detectors of the country., All the households that have a detector., The $1000$ households that were checked.,,,03/04/2019 20:21,1,05/05/2019 1:38,37.0,3,2,1.0,45.0,Sample,Statistics,
+18363,3317,776,18,,2,0,19/06/2023 13:05,,,81,,"Consider the linear transformation $F:\mathbb{R}^2 \longrightarrow \mathbb{R}^2$, such that $F(x, y)=(x+2y, 2x+3y)$. Choose the right answer: ",Basic,"$F^{-1}$ is a symmetric operator defined by $F^{-1}(x,y)=(-3x+2y, 2x-y)$.",$F^{-1}$ does not exist.,"$F^{-1}$ is defined by $F^{-1}(x,y)=(3x-2y, -2x+y)$ and is not a symmetric operator.","$F^{-1}$ is a symmetric operator defined by $F^{-1}(x,y)=(3x-2y, 2x-y)$.",,,21/06/2019 18:11,1,14/07/2019 12:19,61.0,3,1,1.0,161.0,Injective linear transformation,Linear Algebra,
+9703,1828,614,7,2.0,7,1,10/11/2020 18:06,,,50,,"Simplify:
+
+$\dfrac{(3x +4x)(5x-x)}{(6x-7x)}$",Basic,$-28x$,$-28$,$-x$,$-13$,,,10/05/2019 12:39,1,09/09/2019 0:49,37.0,1,4,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+2183,660,188,14,,2,0,26/11/2019 13:17,,,41,,The Fire Safety Department conducted a study to determine the percentage of households in the country that have smoke detectors. $1000$ households were checked and $875$ of them had a detector. Identify the sample of interest.,Basic,The $1000$ households that were checked.,All the households of the country.,All the smoke detectors of the country., All the households that have a detector.,,,03/04/2019 20:20,1,05/05/2019 1:37,37.0,3,2,1.0,45.0,Sample,Statistics,
+22908,3501,263,4,4.0,5,1,15/01/2025 23:30,,,66,,Find $\dfrac{?z}{?y}$  of $z=\dfrac{-2x}{\sqrt{(2x^2+2y^2)^3}}$.,Basic,$\dfrac{?z}{?y}=\dfrac{12xy}{\sqrt{(2x^2+2y^2)^5}}$,$\dfrac{?z}{?y}=\dfrac{-2y}{(2x^2+2y^2)^3}$,$\dfrac{?z}{?y}=\dfrac{-2y}{\sqrt{(2x^2+2y^2)}}$,$\dfrac{?z}{?y}=\dfrac{2x}{\sqrt{(2x^2+2y^2)^3}}$,,,12/04/2019 22:27,1,10/10/2019 0:42,37.0,3,5,1.0,265.0,First order,Differentiation,Partial Differentiation
+3017,899,427,18,10.0,3,-1,10/12/2019 11:12,,,72,,Assume that $F$ and $H$ are subspaces of a finite-dimensional vector space $V$. Choose the true statement.,Advanced,"If $F$ is a zero vector space, then $dim(F)= 0$",$dim(F)=dim(V)$,"If $dim(F)=dim(H)$, then $F=H$","If a set of $n$ vectors spans the subspace $H$, then $dim(H)=n$",,,30/04/2019 1:21,1,01/05/2019 23:00,38.0,4,3,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+7601,840,384,18,11.0,5,0,10/01/2020 15:42,,,38,,Choose the right answer: ,Basic,"The rotation function  $F_\theta:\mathbb{R}^2\rightarrow \mathbb{R}^2$ associated with the  $\theta$ angle is an orthogonal linear operator
+","The translation function $F_v:\mathbb{R}^2\rightarrow \mathbb{R}^2$ associated to vector $v$ is a linear operator
+","The reflection function $F:\mathbb{R}^2\rightarrow \mathbb{R}^2$ around the line y = x, defined by $F(x,y)=(y, x)$ is a non-orthogonal linear operator
+",The rotation function  $F_\theta:\mathbb{R}^2\rightarrow \mathbb{R}^2$ associated with the  $\theta$ angle is a non-orthogonal linear operator,,,27/04/2019 22:44,1,16/05/2019 16:12,61.0,4,1,1.0,156.0,Linearity,Linear Algebra,Linear Transformations
+18976,3378,390,5,5.0,1,0,10/01/2024 14:28,,,38,,"Find $\displaystyle\int \dfrac{{\operatorname{e}^{2x}}}{{\operatorname{e}^{4x}}+1}\, dx$.",Basic,$\displaystyle \dfrac{1}{2}\arctan(\operatorname{e}^{2x})+c$,"$\displaystyle \arctan(\operatorname{e}^{2x})+c$
+","$\displaystyle 2\arctan(\operatorname{e}^{2x})+c$
+",$\displaystyle \dfrac{1}{4}\arctan(\operatorname{e}^{2x})+c$,,,28/04/2019 17:22,1,28/04/2019 19:25,38.0,2,1,1.0,101.0,Substitution,Integration,Integration Techniques
+16309,3028,112,7,2.0,7,0,29/09/2022 0:20,,,50,,"Make $d$ the subject of the expression
+
+$p=\frac{\pi d}{2}$",Basic,$d=\frac{2p}{\pi}$,$d={\frac{\pi}{2}}-p$,$d=\frac{\pi}{2p}$,$d=\frac{2\pi}{p}$,,,20/03/2019 22:16,1,23/04/2019 19:26,37.0,1,4,1.0,317.0,Rearranging equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+11938,1890,650,18,7.0,1,0,23/01/2021 13:43,,,52,,"Let $M=\left( \begin{array}{rrr}  
+1  & 0 & 2 \\ 
+-1 & 1 & 0\\
+0  & 2 & 1\end{array}
+\right)$ and $f(x)=x^2-2x+3$. Find $f(M).$",Basic,"$\left( \begin{array}{rrr}  
+2  & 4 & 0 \\ 
+0 & 2 & -2\\
+-2  & 0 & 2\end{array}
+\right)$","$\left( \begin{array}{rrr}  
+2  & 7 & 3 \\ 
+3 & 2 & 1\\
+1  & 3 & 2\end{array}
+\right)$","$\left( \begin{array}{rrr}  
+-1  & 4 & 0 \\ 
+0 & -1 & -2\\
+-2  & 0 & -1\end{array}
+\right)$",none of options given are correct,,,12/05/2019 11:47,1,04/06/2019 12:52,67.0,3,1,1.0,114.0,Matrix multiplication,Linear Algebra,Matrices and Determinants
+3945,1148,415,18,10.0,4,-1,30/12/2019 16:34,,,72,,"Let $A= \{(1, -2, 0), (2, 3, 2), (3, 1, 2)\}$ and $B= \{(1, -2, 0), (1, 0, 2), (1, -1, 3)\}$ be sets of vectors of $\mathbb{R}^3$. Choose the right answer: ",Basic,$B$ is linearly independent but $A$ is not,$A$ and $B$ are linearly independent,$A$ is linearly independent but $B$ is not,$A$ and $B$ are linearly dependent ,,,29/04/2019 15:46,1,01/05/2019 22:38,38.0,1,1,1.0,148.0,Span,Linear Algebra,Vector Spaces
+11526,1694,619,18,8.0,2,0,17/01/2021 17:57,,,127,,"The spectral radius of the matrix $A = \begin{bmatrix}
+2 & 0 & 0 \\
+3 & -1 & 0 \\
+0 & 4 & 3 \end{bmatrix}$ is:",Basic,3,6,1,2,,,10/05/2019 17:52,1,27/06/2019 18:26,64.0,3,3,1.0,127.0,Eigenvalues,Linear Algebra,Eigenvalues and Eigenvectors
+21361,80,156,16,,2,0,31/08/2024 2:01,,,59,,Solve the Cauchy problem $x'+2tx=2t^{3}e^{-2t^2}$ knowing that $x(0)=1$.,Basic,$x=2\operatorname{e}^{-t^2}-(t^{2}+1)\operatorname{e}^{-2t^2}$.,$x=3\operatorname{e}^{-t^2}-(t^{2}+2)\operatorname{e}^{-2t^2}$.,$x=2\operatorname{e}^{-t}-(t^{2}+1)\operatorname{e}^{-2t}$.,$x=(t^{2}+1)\operatorname{e}^{-2t^2}$.,,,31/03/2019 14:45,1,13/04/2019 12:43,38.0,5,3,1.0,202.0,Linear differential equation,Differential Equations,
+16516,3070,371,7,,1,-1,19/10/2022 15:32,,,37,,In a parallelogram,Basic,the two diagonals bisect.,the two diagonals are perpendicular.,the four sides are congruent.,the four angles are congruent.,,,27/04/2019 12:32,1,10/05/2019 1:02,37.0,1,1,1.0,9.0,Geometrical figures,Fundamental Mathematics,
+14043,2481,635,18,7.0,3,1,11/10/2021 17:41,,,52,,"Compute the determinant of $\left( 
+  \begin{array}{rrrrrr}
+1 & -1 & 2 & 3 & -1 & 2 \\ 
+0 & 1 & 3 & -1 & 2 & 3 \\
+0 & 0 & 1 & -1 & 2 & 3 \\
+0 & 0 & 0 & 1 & -1 & 2 \\
+0 & 0 & 0 & 0 & 1 & 3 \\
+0 & 0 & 0 & 0 & 0 & 1 \end{array} \right)$.",Basic,$1$,$0$,$3$,undefined,,,12/05/2019 11:16,1,12/05/2019 11:33,52.0,1,2,1.0,119.0,Matrix condensation,Linear Algebra,Matrices and Determinants
+7429,955,437,18,11.0,2,-1,09/01/2020 22:48,,,38,,"Consider the linear applications 
+
+$\begin{array}{cccc}
+F: & \mathbb{R}^3 & \rightarrow  & \mathbb{R}^2 \\
+  & (x, y, z) & \longrightarrow & (y, x-z)
+\end{array}$
+$\begin{array}{cccc}
+G: & \mathbb{R}^2 & \rightarrow  & \mathbb{R}^2 \\
+  & (x, y) & \longrightarrow & (x+y, x-2y)
+\end{array}$
+
+Choose the right answer: ",Basic,"$(G\circ F)(x, y, z)=(x+y-z, -2x+y+2z)$ and $(F\circ G)$ does not exist 
+","$(F\circ G)(x, y, z)=(x+y-z, -2x+y+2z)$and $(G\circ F)$ does not exist 
+","$(G\circ F)(x, y, z)=(F\circ G)(x, y, z)=(x+y-z, -2x+y+2z)$
+","$(G\circ F)(y, x-z)=(x+y-z, -2x+y+2z)$ and $(F\circ G)(x, y)=(x+y, x-2y)$ ",,,30/04/2019 12:04,1,16/05/2019 16:18,61.0,3,1,1.0,157.0,Linear transformation,Linear Algebra,Linear Transformations
+11715,1888,84,3,37.0,5,-1,19/01/2021 18:59,,,42,,"Find the values of the parameter $\alpha\in\mathbb R$ for which the function
+\[
+f_\alpha\colon \mathbb R\setminus\{0\}\to\mathbb R \ \text{ given by } \ f_\alpha(x)=\frac{\alpha -\cos( x)}{x^2}
+\]
+may be extended to a function defined on the whole real line.",Basic,$\alpha=1$.,$\alpha=1/2$.,"$\alpha\in [-1,1]$.",There is no such value of $\alpha$.,,,11/03/2019 9:47,1,26/09/2019 14:34,61.0,5,3,1.0,182.0,Limits,Real Functions of a Single Variable,Limits and Continuity
+16399,3036,1016,12,13.0,2,0,06/10/2022 11:11,,,37,,"Consider the problem 
+\[
+\begin{array}{rl}
+\min & e^{x_1}+x_2\\
+s.t & -x_1-x_2 \leq 0
+\end{array}
+\]
+
+Solve using the SQP method. 
+It is possible to say that",Basic,"$(-1,1)$ is the local solution of the problem.","$(0,0)$ is not a feasible point.",the problem is impossible.,"$(-1,1)$ is a maximizer of the problem.",,,02/12/2019 2:41,1,02/12/2019 2:43,38.0,3,4,1.0,177.0,Minimum,Optimization,Nonlinear Optimization
+8502,1564,686,3,37.0,2,1,25/06/2020 9:51,,,42,,"Let $f\colon\mathbb{R}\to\mathbb{R}$ be the function defined by
+\[
+f(x)=\frac{1-\sin (x)}{2+\cos (x)}.
+\]
+Which of these statements is false?",Basic,The $\lim_{x\to 0}f(x)$ does not exist.,$f$ is bounded.,$f$ is continuous.,The $\lim_{x\to +\infty}f(x)$ does not exist.,,,15/05/2019 15:10,1,26/09/2019 15:26,61.0,4,2,1.0,182.0,Limits,Real Functions of a Single Variable,Limits and Continuity
+4298,1220,785,18,11.0,3,1,03/01/2020 17:42,,,81,,"Being $T: \mathbb{R}^3\longrightarrow\mathbb{R}^2$ a linear application such that $T(x,y,z)=(x+k,z+k)$, with $k\in \mathbb{R}$. Indicate for which values of $k$ that application is linear.",Basic,$k=0$,$k=1$,$k=2$,$k=\dfrac{1}{2}$,,,21/06/2019 18:44,1,22/09/2019 18:04,163.0,1,2,1.0,156.0,Linearity,Linear Algebra,Linear Transformations
+6572,913,430,18,10.0,1,0,07/01/2020 20:21,,,72,,"Indicate which of the following polynomials span $P_2=\{a_2x^2+a_1x+a_0, a_2,a_1,a_0 \in \mathbb{R}\}$.",Advanced,"$x^2,x+1,2$","$4+x$, $-2+x^2$","$x^2+1$, $x^2+x$","$x^2-2x,x^2-x+3,x+3$ ",,,30/04/2019 1:31,1,01/05/2019 23:28,38.0,5,4,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+5159,1220,434,18,10.0,3,0,05/01/2020 19:02,,,81,,"Consider the spaces $S_1=\mathbb{R}^2$ and $S_2=\{(x, y)\in \mathbb{R}^2: x-2y=0\}$. 
+The dimensions $d_1$ of $S_1\cap S_2$ and $d_2$ of $S_1+S_2$ are: ",Basic,"$d_1=1, \quad d_2=2$ ",$d_1= d_2=2$,"$d_1=0, \quad d_2=2$","$d_1=2, \quad d_2=1$",,,30/04/2019 11:58,1,01/05/2019 23:37,38.0,3,2,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+7013,1126,293,18,11.0,2,0,08/01/2020 17:50,,,38,,"Let $T:\mathbb{R}^2\longrightarrow \mathbb{R}^3$ be the linear transformation given by $T(x,y)=(2x,y,4x-3y)$. The range of $T$ is:",Advanced,"$\left\{(a,b,c)\in \mathbb{R}^3: c=2a-3b\right\}$ 
+","$\mathbb{R}^3$ 
+","$\left\{(a,b,c)\in \mathbb{R}^3: c=4a-3b\right\}$
+","$\left\{(a,b,c)\in \mathbb{R}^3: c=2a-5b\right\}$",,,26/04/2019 16:08,1,14/05/2019 12:07,61.0,4,1,1.0,159.0,Kernel,Linear Algebra,Linear Transformations
+3510,1147,417,18,10.0,2,-1,23/12/2019 0:23,,,81,,"Consider the subspace of $\mathbb{R}^4$ 
+$$S=\{(x, y, z, w)\in \mathbb{R}^4: x+y-z=0\wedge x-2y+w=0\}.$$
+A base of $S$ is the set:",Basic,"$\{(1,0, 1,-1), (0, 2, 2, 4)\}$","$\{(1,0, 1,-1), (1, -1, 0, -3), (2, 3, 5, 4)\}$","$\{(1,0, 1,-1), (1, 2, 2, 4)\}$","$\{(1,-3, -2,-7), (-2, 6, 4, 14)\}$",,,29/04/2019 16:10,1,01/05/2019 22:40,38.0,3,2,1.0,151.0,Basis,Linear Algebra,Vector Spaces
+2313,625,434,18,,3,0,28/11/2019 7:47,,,81,,"Consider the spaces $S_1=\mathbb{R}^2$ and $S_2=\{(x, y)\in \mathbb{R}^2: x-2y=0\}$. 
+The dimensions $d_1$ of $S_1\cap S_2$ and $d_2$ of $S_1+S_2$ are: ",Basic,"$d_1=1, \quad d_2=2$ ",$d_1= d_2=2$,"$d_1=0, \quad d_2=2$","$d_1=2, \quad d_2=1$",,,30/04/2019 11:58,1,01/05/2019 23:37,38.0,3,2,1.0,146.0,Vector subspace,Linear Algebra,
+9488,1733,231,18,,3,0,13/10/2020 8:31,,,43,,"Find the solutions of the following linear system:
+$$\begin{cases}
+2x &  &  &+ &4z &= &0 \\ 
+3x &- &4y &+ &12z &= &0 \\ 
+x &- &2y &+ &5z &= &0
+\end{cases}$$",Basic,"The system has $\left(-2z,\,\frac{3z}{2},\,z\right)$ as solution for every $z\in\mathbb{R}$.",The system has no solutions.,"The system has $\left(-4,3,2\right)$ as its unique solution.","The system has $\left(-2z+y,y,z\right)$ as solution for every $y,z\in\mathbb{R}$.",,,08/04/2019 11:36,1,01/08/2019 1:42,64.0,2,4,1.0,137.0,Square linear system,Linear Algebra,
+21194,3342,1532,7,2.0,6,1,11/06/2024 15:15,,,2956,,The solution of the equation $$2x(x+5)-(x+5)^2=0$$ is:,Advanced,$x=-5 \ \vee \ x=5$,$x=-2 \ \vee \ x=2$,$x=-1 \ \vee \ x=2$,$x=-1 \ \vee \ x=0$,,,25/04/2023 16:42,1,08/05/2023 0:38,64.0,4,6,1.0,3.0,Linear equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+16027,3002,795,7,2.0,1,1,22/09/2022 12:42,,,50,,"Solve for $x$:
+
+$\frac{2x}{4}=3x^3$",Basic,"$x\in\{0,\pm 0.17\}$",$x=\pm 1.23$,$x=\pm 1.5$,$x=0$,,,27/06/2019 0:33,1,27/09/2019 7:45,61.0,2,1,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+18380,3317,422,18,,4,0,19/06/2023 18:23,,,72,,"Mark the vector which is a linear combination of $u=(1,-2,3)$ and $v=(3,5,-7)$.",Basic,"$(9,4,-5)$","$(0,-1,2)$","$ (-2,1,3)$","$(7,-5,-3)$",,,30/04/2019 1:08,1,01/05/2019 22:51,38.0,1,1,1.0,147.0,Linear combination,Linear Algebra,
+7566,200,733,5,5.0,1,0,10/01/2020 13:37,,,38,,Find $\displaystyle \int \frac{x}{\sqrt{x^2+4}}\: dx$,Basic,$\sqrt{x^2+4} + c$,"$\displaystyle x^2 +4x+c$
+","$\displaystyle x^2 + c$
+",$2\sqrt{x^2+4} + c$,,,04/06/2019 17:16,1,27/09/2019 14:50,61.0,2,1,1.0,103.0,Direct inspection,Integration,Integration Techniques
+18922,3358,1247,12,13.0,2,0,10/01/2024 14:21,,,2162,,"Find the relative extrema of the function $f$: $\mathbb{R} \rightarrow \mathbb{R}$,  $f(x)=4x^3-6x^2-24x+1$.",Basic," $M(-1)\ is\ maximizer, N(2)\ is\ minimizer$.",$M(1)\ and\ N(4)\ are\ minimizers$.,$M(-1)\ and\ N(2)\ are\ maximizers$., $M(3)\ is\ maximizer$.,,,27/04/2021 18:43,1,26/12/2021 23:04,37.0,1,2,1.0,177.0,Minimum,Optimization,Nonlinear Optimization
+15259,2905,1110,26,,4,1,29/04/2022 11:37,,,37,,"Consider the table
+
+$$\begin{array}{c|ccc}
+x & 2 & 2.5 & 4   \\
+\hline
+y & 0.5 & 0.4 & 0.25 \\
+\end{array}$$
+
+Find the Newton's interpolation polynomial.",Basic,$P(x)=0.05x^2 - 0.425x + 1.15$.,$P(x)=-0.05x^2 - 0.425x + 1.15$.,$P(x)=0.05x^2 + 0.425x + 1.15$.,$P(x)=0.05x^2 - 0.425x - 1.15$.,,,14/06/2020 20:00,1,15/06/2020 18:23,38.0,3,2,1.0,269.0,Polynomial interpolation,Numerical Methods,
+10164,1860,612,7,2.0,7,0,26/11/2020 10:45,,,50,,"Simplify:
+
+$(x^2 +3x +5) +(x-2)^2$",Basic,$2x^2 -x+9$,$2x^2-x+1$,$2x^2 +3x +9$,$x^4 +3x+9$,,,10/05/2019 12:22,1,09/09/2019 0:47,37.0,1,4,1.0,4.0,Quadratic equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+1009,422,633,18,7.0,1,1,26/10/2019 21:17,,,52,,"Find $a$ such that the matrix $\left( \begin{array}{rrr}
+1 & 2 & 3 \\ 
+4 & 5 & 6 \\ 
+3 & 2 & a \end{array}
+\right)$ is singular.",Advanced,$1$,$-1$,$0$,$3$,,,12/05/2019 11:13,1,12/05/2019 11:33,52.0,5,4,1.0,115.0,Commuting matrices,Linear Algebra,Matrices and Determinants
+2114,658,189,14,,1,0,26/11/2019 13:17,,,41,,The Fire Safety Department conducted a study to determine the percentage of households in the country that have smoke detectors. $1000$ households were checked and $875$ of them had a detector. Identify the population of interest in this case.,Basic,All the households of the country. ,All the smoke detectors of the country., All the households that have a detector., The $1000$ households that were checked.,,,03/04/2019 20:21,1,05/05/2019 1:38,37.0,3,2,1.0,45.0,Sample,Statistics,
+3224,411,616,18,8.0,1,0,16/12/2019 15:55,,,127,,"Knowing that -1 is an eigenvalue of the matrix $A = \begin{bmatrix}
+2 & 2 & 3 \\
+1 & 2 & 1 \\
+2 & -2 & 1 \end{bmatrix}$, which of the following is an eigenvector associated with the eigenvalue -1?",Basic,"$\begin{bmatrix}
+1  \\ 
+0 \\
+-1 \end{bmatrix}$","$\begin{bmatrix}
+-1  \\ 
+0 \\
+-1 \end{bmatrix}$","$\begin{bmatrix}
+-1  \\ 
+0 \\
+1 \end{bmatrix}$","$\begin{bmatrix}
+1  \\ 
+1 \\
+1 \end{bmatrix}$",,,10/05/2019 17:45,1,28/07/2019 1:41,64.0,3,1,1.0,127.0,Eigenvalues,Linear Algebra,Eigenvalues and Eigenvectors
+19387,3385,929,22,,1,-1,11/01/2024 23:55,,,64,,"The number of vertices, $|V|$, edges, $|E|$, and faces, $|F|$, of the attached graph is",Basic,"$|V|=5$, $|E|=7$ and $|F|=4$.","$|V|=5$, $|E|=6$ and $|F|=7$.","$|V|=5$, $|E|=5$ and $|F|=5$.","$|V|=5$, $|E|=5$ and $|F|=3$.",SNA929.jpg,jpg,31/07/2019 11:26,1,31/07/2019 11:42,64.0,1,1,1.0,75.0,Simple graph,Graph Theory,
+22041,3472,125,18,7.0,2,1,24/12/2024 20:21,,,52,,"Find $M^2+(A^T\cdot B)^{-1}$, where $A=\left( \begin{array}{rrr}
+-1 & 3 & 2 \end{array}
+\right)$, $B=\left( \begin{array}{rrr}
+-2 & 4 & 1 \end{array}
+\right)$, and $M=\left( \begin{array}{rrr}
+7 & 2 & 1 \\
+-1 & 3 & 0  \\
+2 & 0 & -2 \end{array}
+\right)$.",Basic,given operation is not valid,"$\left( \begin{array}{rrr}
+11 & 4 & 0 \\ 
+-6 & 3 & 1 \\ 
+23 & 14 & -8 \end{array}
+\right)$","$\left( \begin{array}{rrr}
+49 & 20 & 5 \\ 
+-10 & 7 & -1 \\ 
+10 & 4 & 6 \end{array}
+\right)$","$\left( \begin{array}{rrr}
+7 & 2 & 1 \\
+-1 & 3 & 0  \\
+2 & 0 & -2 \end{array}
+\right)$",,,24/03/2019 14:14,1,07/05/2019 15:32,52.0,2,2,1.0,114.0,Matrix multiplication,Linear Algebra,Matrices and Determinants
+12431,1517,380,18,11.0,1,0,17/02/2021 15:58,,,38,,"Let the linear application $F: \mathbb{R}^2\rightarrow \mathbb{R}^3$ be defined by $F(x, y)=(x, y, x-y)$. 
+When considering the bases $A= \{(1, 2), (3,5)\}$ of $\mathbb{R}^2$ and $B= \{(1, 2,0), (2, -3,1), (0, -1, 1)\}$ of $\mathbb{R}^3$, the application $F$ is represented by the matrix: ",Advanced,"$A=\left[\begin{array}{rr}
+ \dfrac{2}{3} & 2  \\
+  \dfrac{1}{6} & \dfrac{1}{2} \\
+  -\dfrac{7}{6} & -\dfrac{5}{2}  
+\end{array}\right]$ ","$A=\left[\begin{array}{rr}
+ 1  & 0  \\
+  0 & 1  \\
+  1 & -1  
+\end{array}\right]$","$A=\left[\begin{array}{rrr}
+ 1  & 0 & 1 \\
+  0 & 1  & -1
+\end{array}\right]$ ","$A=\left[\begin{array}{rr}
+ \dfrac{2}{3}  & 2  \\
+  \dfrac{1}{3} & \dfrac{1}{2} \\
+  -\dfrac{7}{3} & -\dfrac{5}{2} 
+\end{array}\right]$",,,27/04/2019 22:15,1,14/05/2019 13:16,61.0,5,4,1.0,158.0,Matrix of a linear transformation,Linear Algebra,Linear Transformations
+2506,857,223,18,,4,0,04/12/2019 17:38,,,38,,"Find the solution of the following linear system:
+$$\begin{cases}
+&2x &- &y &+ &3z &= &8 \\
+&-3x &+ &2y &+ &z &= &-7 \\
+&-2x &+ &y &+ &2z &= &-3
+\end{cases}$$",Basic,"The vector solution is $(2,-1,1)$.","The vector solution is $(2,-11,10)$.",The system has no solution.,"The vector solution is $ (10,-11,2)$.",,,07/04/2019 0:53,1,07/04/2019 1:25,37.0,1,5,1.0,137.0,Square linear system,Linear Algebra,
+9388,1694,614,7,2.0,7,1,06/10/2020 17:36,,,50,,"Simplify:
+
+$\dfrac{(3x +4x)(5x-x)}{(6x-7x)}$",Basic,$-28x$,$-28$,$-x$,$-13$,,,10/05/2019 12:39,1,09/09/2019 0:49,37.0,1,4,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+4536,956,416,18,10.0,2,-1,04/01/2020 11:39,,,72,,"Consider the subspace of matrices of order $2$, 
+$$S=\left\{ \left[\begin{array}{rr}
+ a  & b  \\
+  -b & c  
+\end{array}\right], \quad a, b, c	\in \mathbb{R}\right\}.$$ 
+A base of the subspace $S$ is the set:",Basic,"$\left\{ \left[\begin{array}{rr}
+ 2  & 1  \\
+  -1 & 3  
+\end{array}\right], \left[\begin{array}{rr}
+ 1  & 0  \\
+  0 & 2  
+\end{array}\right], \left[\begin{array}{rr}
+ 3  & -2  \\
+  2 & -1  
+\end{array}\right]\right\}$ ","$\left\{ \left[\begin{array}{rr}
+ 2  & 1  \\
+  -1 & 3  
+\end{array}\right], \left[\begin{array}{rr}
+ 1  & 0  \\
+  0 & 3  
+\end{array}\right]\right\}$ ","$\left\{ \left[\begin{array}{rr}
+ 1  & -2  \\
+  2 & 0  
+\end{array}\right], \left[\begin{array}{rr}
+ 2  & 0  \\
+  0 & 1  
+\end{array}\right], \left[\begin{array}{rr}
+ 1  & 2  \\
+  -2 & 1  
+\end{array}\right]\right\}$ ","$\left\{ \left[\begin{array}{rr}
+ 2  & 1  \\
+  -1 & 3  
+\end{array}\right]\right\}$",,,29/04/2019 15:56,1,01/05/2019 22:40,38.0,3,2,1.0,151.0,Basis,Linear Algebra,Vector Spaces
+15352,2902,1109,26,,3,1,01/05/2022 21:30,,,37,,"Consider the table
+
+$$\begin{array}{c|ccc}
+x & 2 & 2.5 & 4   \\
+\hline
+y & 0.5 & 0.4 & 0.25 \\
+\end{array}$$
+
+Find $P(3)$ using Lagrange's interpolation, where  $P$ denotes the obtained polynomial.",Basic,$P(3) = 0.325$,$P(3) = 0.335$,$P(3) = 0.355$,$P(3) = 0.345$,,,14/06/2020 19:58,1,15/06/2020 18:23,38.0,2,1,1.0,268.0,Lagrange's interpolation,Numerical Methods,
+4953,1220,450,18,10.0,2,0,05/01/2020 14:07,,,81,,Indicate which of the following is a subspace of $\mathbb{R}^3$.,Basic,"$\left\{(x,y,z)\in \mathbb{R}^3: z=3y-4z\right\}$","$\left\{(x,y,z)\in \mathbb{R}^3: x+y=2\right\}$","$\left\{(x,y,z)\in \mathbb{R}^3: x^2+z^2=4\right\}$","$\left\{(x,y,z)\in \mathbb{R}^3: xy=0\right\}$",,,02/05/2019 18:40,1,02/05/2019 19:32,38.0,4,2,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+17114,2893,858,12,13.0,2,-1,30/11/2022 15:04,,,61,,"Find the local extrema for the function $f:{\mathbb R}\longrightarrow {\mathbb R}$ given by $f(x,y)=(x+1)(y+1)(x+y).$",Basic,"M($-\frac{1}{3},-\frac{1}{3}$) is the minimizer, and $f_{minimizer}=-\frac{8}{27}$.","M($\frac{1}{3},\frac{1}{3}$) is the maximizer, and $f_{maximizer}=\frac{8}{27}$.","M($2,3$) is the minimizer, and $f_{minimizer}=60$.","M($-\frac{1}{3},-\frac{1}{3}$) is the minimizer, N($\frac{1}{3},\frac{1}{3}$) is the maximizer, $f_{minimizer}(M)=-\frac{8}{27}$, and $f_{maximizer}(N)=\frac{8}{27}$.",,,14/07/2019 9:14,1,27/09/2019 8:01,61.0,4,1,1.0,176.0,Optimal solution,Optimization,Nonlinear Optimization
+13250,2319,1116,26,,3,1,07/06/2021 2:50,,,37,,"Consider the table
+
+$$\begin{array}{c|ccccc}
+x & 2.0 & 2.5 & 3.0 & 3.5 & 4.0 & 4.5   \\
+\hline
+f(x) & 0.5 & 0.4 & 0.3333 & 0.2857 & 0.25 & 0.2222 \\
+\end{array}$$
+
+Using the three points rule, find $f'(x)$. Which sentence is true?",Basic,$f'(2.5)=-0.1667$.,$f'(2.0)=-0.2464$.,$f'(3.5)=-0.08148$.,$f'(4.5)=-0.04868$.,,,14/06/2020 20:35,1,15/06/2020 17:32,38.0,4,3,1.0,353.0,Three points rule,Numerical Methods,
+8036,1022,965,12,12.0,1,-1,24/01/2020 15:03,,,37,,"The Childfair Company has three plants producing child push chairs that are to be shipped to four distribution centers. Plants $1$, $2$, and $3$ produce $12$, $17$, and $11$ shipments per month, respectively. Each distribution center needs to receive $10$ shipments per month. The distance (in miles) from each plant ($i$) to the respective distributing centers ($j$) is given below:
+
+\[
+\begin{array}{c|c|c|c|c}
+\text{Plant Dist. Center} & \text{1} & \text{2} & \text{3}  & \text{4}  \\
+\text{1} & 800  & 1300 &  400 & 700\\
+\text{2} & 1100 & 1400 &  600 & 1000 \\
+\text{3} & 600  & 1200 &  800 & 900\\
+\end{array}
+\]	
+
+The freight cost for each shipment is $100.50?$ per mile. Use the transportation simplex method to determine how much should be shipped from each plant to each of the distribution centers each month, to minimize the total shipping cost. Use the minimum cost rule to obtain an initial basic feasible solution.
+
+Choose the right answer:",Basic,"$x_{13} = 2, x_{14} = 10, x_{22} = 9, x_{23} = 8, x_{31} = 10, x_{32}= 1 \text{, other } x_{ij}=0$","$x_{11} = 10, x_{13} = 2, x_{22} = 10, x_{24} = 7, x_{33} = 8, x_{34}= 3 \text{, other } x_{ij}=0$","$x_{11} = 10, x_{13} = 2, x_{22} = 9,  x_{24}= 8, x_{32}= 1, x_{33}= 8 \text{, other } x_{ij}=0$ ","$x_{12} = 2, x_{13} = 10, x_{22} = 8, x_{24} = 9, x_{31}= 10, x_{34}= 1 \text{, other } x_{ij}=0$ ",,,19/11/2019 19:52,1,11/12/2019 15:51,61.0,3,1,1.0,167.0,Simplex method,Optimization,Linear Optimization
+2188,660,180,14,,1,0,26/11/2019 13:17,,,41,,"For the distribution shown below, identify the mean, the median, and the mode.",Basic,"X is the mean, Y is the median, and Z is the mode.","Y is the mean, Z is the median, and X is the mode.","Z is the mean, X is the median, and Y is the mode.","Z is the mean, Y is the median, and X is the mode.",distr1.jpg,jpg,03/04/2019 19:54,1,09/04/2019 1:41,37.0,1,3,1.0,49.0,Mean,Statistics,
+6552,972,306,18,11.0,2,1,07/01/2020 20:18,,,38,,Choose the true statement.,Advanced,"If the kernel of a linear transformation $T:\mathbb{R}^3\longrightarrow \mathbb{R}^3$ is $\left\{(0,0,0)\right\}$, then $T$ is an isomorphism. 
+
+"," If the kernel of a linear transformation $T:\mathbb{R}^3\longrightarrow \mathbb{R}^4$ is $\left\{(0,0,0)\right\}$, then $T$ is an isomorphism. 
+","If the kernel of a linear transformation $T:\mathbb{R}^2\longrightarrow \mathbb{R}^3$ is $\left\{(0,0)\right\}$, then $T$ is an isomorphism.
+","If the kernel of a linear transformation $T:\mathbb{R}^3\longrightarrow \mathbb{R}^3$ is $\left\{(0,0,x):x\in\mathbb{R}\right\}$, then $T$ is an isomorphism.",,,26/04/2019 16:37,1,14/05/2019 12:08,61.0,4,3,1.0,159.0,Kernel,Linear Algebra,Linear Transformations
+6911,634,321,18,11.0,3,1,08/01/2020 16:46,,,38,,Indicate which of the following applications is linear.,Basic,"
+\( T: \mathbb{R}^2 \to \mathbb{R}^2: \quad T(x,y) = (y,x) \)","
+\( T: \mathbb{R}^2 \to \mathbb{R}^2: \quad T(x,y)=(1+x,y) \)","
+\( T: \mathbb{R}^2 \to \mathbb{R}^2: \quad T(x,y)=(x^2,y) \)
+","
+\( T: \mathbb{R}^3 \to \mathbb{R}^2: \quad:T(x,y,z)=(x-2yx,-y)\)
+",,,26/04/2019 16:56,1,14/05/2019 12:56,61.0,1,2,1.0,156.0,Linearity,Linear Algebra,Linear Transformations
+18589,2577,1251,26,,1,0,22/06/2023 0:30,,,37,,"Consider the table
+
+$$\begin{array}{c|cccc}
+x & 1 & 3 & 4 & 5   \\
+\hline
+y & 0 & 6 & 24 & 60 \\
+\end{array}$$
+
+Find the Newton's interpolational polynomial.",Basic,$P(x)=x^3-3x^2+2x$.,$P(x)=x^3+3x^2+2x$.,$P(x)=-x^3-3x^2+2x$.,$P(x)=x^3-3x^2-2x$.,,,01/06/2021 17:03,1,01/06/2021 17:10,37.0,3,2,1.0,269.0,Polynomial interpolation,Numerical Methods,
+2960,394,449,18,10.0,1,0,10/12/2019 10:16,,,81,,"Consider the vector $v=(-1, 2, 3)$ and the subspace $S$ generated by the vectors $u_1=(-1, 0, 1)$ and $u_2=(0, 3, -3)$ of $\mathbb{R}^3$. 
+What is the value of the distance from $v$ to $S$?",Advanced,$\dfrac{\sqrt{30}}{2}$,$\sqrt{3}$,$\sqrt{15}$,$1$ ,,,02/05/2019 18:38,1,02/05/2019 19:28,38.0,4,3,1.0,153.0,Euclidean spaces,Linear Algebra,Vector Spaces
+9376,483,505,7,,3,0,06/10/2020 13:56,,,91,,"Considering the similarity criteria of triangles, choose the correct statement.",Basic,Two scalene triangles are similar if two internal angles of one of them are congruent to two of the internal angles of the other.,Two isosceles triangles are similar if the length of two sides of one of them is directly proportional to the length of two sides of the other.,Two right triangles are always similar.,Two scalene triangles are never similar.,,,04/05/2019 21:30,1,23/01/2020 13:54,67.0,3,3,1.0,16.0,Triangles,Fundamental Mathematics,
+4072,1171,785,18,11.0,3,1,02/01/2020 16:55,,,81,,"Being $T: \mathbb{R}^3\longrightarrow\mathbb{R}^2$ a linear application such that $T(x,y,z)=(x+k,z+k)$, with $k\in \mathbb{R}$. Indicate for which values of $k$ that application is linear.",Basic,$k=0$,$k=1$,$k=2$,$k=\dfrac{1}{2}$,,,21/06/2019 18:44,1,22/09/2019 18:04,163.0,1,2,1.0,156.0,Linearity,Linear Algebra,Linear Transformations
+9960,1694,646,18,7.0,1,-1,22/11/2020 19:57,,,52,,"Suppose that $A=\left( \begin{array}{rrr}  
+-2  & -1 & 1 \\ 
+0 & 1 & 2\\
+2  & 1 & -2\end{array}
+\right)$, $B=\left( \begin{array}{rrr}  
+4  & 1 & 0\end{array}
+\right)$, and $C=\left( \begin{array}{rrr}  
+0  & 3 & -1\end{array}
+\right)$. Find $X$ if $X\cdot A-B=C$.",Basic,"$\left( \begin{array}{rrr}  
+1  & 2 & 3\end{array}
+\right)$","$\left( \begin{array}{rrr}  
+-2  & 0 & -1\end{array}
+\right)$","$\left( \begin{array}{rrr}  
+4  & 4 & -1\end{array}
+\right)$",given operation is not valid,,,12/05/2019 11:44,1,04/06/2019 12:51,67.0,3,1,1.0,114.0,Matrix multiplication,Linear Algebra,Matrices and Determinants
+22996,3514,1990,4,4.0,1,1,16/01/2025 21:25,,,58,,"The differentiable function $f:\{\,(x,y)\in \mathbb{R}^{2};x\neq 0,\,y>0\}\rightarrow \mathbb{R},$
+ $$f(x,y)=y^{\frac{y}{x}}\cdot \sin \left(\dfrac{y}{x}\right)$$ satisfies the equation",Advanced,"$x^{2}\cdot \dfrac{\partial f}{\partial x}(x,y)+xy\cdot \dfrac{\partial f}{\partial y}(x,y)=y\cdot f(x,y)$","$x\cdot \dfrac{\partial f}{\partial x}(x,y)+y\cdot \dfrac{\partial f}{\partial y}(x,y)=\dfrac{1}{x}\cdot f(x,y)$","$x^{2}\cdot \dfrac{\partial f}{\partial y}(x,y)+xy\cdot \dfrac{\partial f}{\partial x}(x,y)=xy\cdot f(x,y)$","$xy\cdot \dfrac{\partial f}{\partial x}(x,y)+y\cdot \dfrac{\partial f}{\partial y}(x,y)=y\cdot f(x,y)$",,,02/03/2020 0:22,1,09/05/2020 1:22,37.0,5,1,,99.0,Second order,Differentiation,Partial Differentiation
+10082,1685,335,10,,5,1,24/11/2020 23:03,,,78,,The polar form of $z=-1-i$ is ,Basic,$z=\sqrt{2}\operatorname{e}^{i\frac{5\pi}{4}}$,$z=\dfrac{\sqrt{2}}{2}\operatorname{e}^{i\frac{3\pi}{4}}$,$z=\sqrt{2}\operatorname{e}^{-i\frac{5\pi}{4}}$,$z=\dfrac{\sqrt{2}}{2}\operatorname{e}^{i\frac{5\pi}{4}}$,,,26/04/2019 19:33,1,27/04/2019 17:37,37.0,2,1,1.0,25.0,Modulus of a complex number,Complex Numbers,
+21557,3456,1495,10,,2,0,19/10/2024 18:09,,,2956,,"Let $z_1=\frac{1}{2}+\sqrt{3}i$. 
+Find $\text{Im}\left(\left(\overline{z_1}\right)^2\right)$.",Basic,$-\sqrt{3}$,$3$,$-3$,$\sqrt{3}$,,,07/02/2023 18:02,1,17/02/2023 16:01,64.0,3,4,1.0,24.0,Imaginary part,Complex Numbers,
+797,397,333,10,,5,-1,09/10/2019 20:44,,,78,,The solution set of the equation $z^2-(3+2i)z+5+i=0$ is:,Advanced,"$S\{1-i \ , \ 2+3i\}$","$S\{-1-i \ , \ 2+3i\}$","$S\{-1-i \ , \ -2+3i\}$
+","$S\{1-i \ , \ 2-3i\}$",,,26/04/2019 19:26,1,27/04/2019 17:35,37.0,3,4,1.0,26.0,Conjugate number,Complex Numbers,
+13130,955,1093,26,,3,1,06/06/2021 23:15,,,37,,"Consider the equation $30=\pi h^2 \dfrac{9-h}{3}$ in the set $[2,3]$. Using Newton's method, how many iterations are needed to obtain an approximation to the solution with an absolute error less than $10^{-3}$.",Basic,$3$.,$2$.,$4$.,$5$.,,,14/06/2020 18:37,1,15/06/2020 18:24,38.0,5,3,1.0,223.0,Newton?s method,Numerical Methods,
+21163,3389,1520,7,2.0,5,1,11/06/2024 12:42,,,2956,,The solution of the equation $$\left(\dfrac{x}{2}-\sqrt{2}\right)(2\sqrt{2}-x)=0$$ is:,Basic,$x=2\sqrt{2}$,$x=\sqrt{2}$,$x=\sqrt{2} \ \vee \ x=2\sqrt{2}$,$x=-2\sqrt{2} \ \vee \ x=2\sqrt{2}$,,,25/04/2023 16:18,1,08/05/2023 0:36,64.0,4,6,1.0,3.0,Linear equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+721,340,299,17,,4,1,09/10/2019 16:32,,,79,,A card is drawn at random from a deck with 52 cards. Find the probability of getting the 7 of hearts.,Basic,$\dfrac{1}{52}$,$\dfrac{1}{26}$,$\dfrac{7}{52}$ ,$\dfrac{7}{26}$ ,,,26/04/2019 16:20,1,02/05/2019 19:44,38.0,1,3,1.0,35.0,Sample space,Probability ,
+1231,466,346,10,,1,-1,02/11/2019 16:47,,,78,,Given two complex numbers $z$ and $w$ we have,Advanced,"$\operatorname{Re}(z+w)= \operatorname{Re}(\,\overline{z}\,) + \operatorname{Re}(\,\overline{w}\,)$",$\operatorname{Re}(z w)= \operatorname{Re}(z) \operatorname{Re}(w)$,"$\operatorname{Re}\left(\dfrac{z}{w}\right)= \dfrac{\operatorname{Re} (z)}{\operatorname{Re}(w)}$, for $w\neq 0$","$\operatorname{Re}(\,\overline{z+w}\,)= \operatorname{Re}(z) - \operatorname{Re}(w)$",,,26/04/2019 21:33,1,27/04/2019 17:41,37.0,5,6,1.0,23.0,Real part,Complex Numbers,
+1101,128,327,10,,5,1,30/10/2019 7:55,,,78,,Simplify $i^3+i^6+i^9$.,Basic,$-1$,$-i$,$1$,$i$,,,26/04/2019 19:08,1,27/04/2019 17:31,37.0,2,1,1.0,24.0,Imaginary part,Complex Numbers,
+11285,1864,332,10,,1,1,10/01/2021 19:59,,,78,,The solution set of the equation $5z^2-4z+1=0$ is:,Basic,"$S\left\{\dfrac{2}{5}-\dfrac{1}{5}i \ , \ \dfrac{2}{5}+\dfrac{1}{5}i\right\}$","$S\left\{\dfrac{1}{5}-\dfrac{2}{5}i \ , \ \dfrac{1}{5}+\dfrac{2}{5}i\right\}$","$S\left\{-\dfrac{1}{5}-\dfrac{2}{5}i \ , \ -\dfrac{1}{5}+\dfrac{2}{5}i\right\}$","$S\left\{-\dfrac{2}{5}-\dfrac{1}{5}i \ , \ -\dfrac{2}{5}+\dfrac{1}{5}i\right\}$ ",,,26/04/2019 19:20,1,27/04/2019 17:34,37.0,2,5,1.0,33.0,Operations with complex numbers,Complex Numbers,
+18168,3306,1101,26,,4,1,14/05/2023 22:01,,,37,,"Consider the table
+
+$$\begin{array}{c|ccccccc}
+x & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+\hline
+f(x) & 961.5 & 466.7 & 662.8 & 620.1 & 757.2 & 807.6 & 761,1\\
+\end{array}$$
+
+Using the trapezoidal rule, find $I=\displaystyle \int_1^7f(x) dx$.",Basic,$I=4175.70$.,$I=4046.73$.,$I=4146.73$.,$I=4075.70$.,,,14/06/2020 18:54,1,15/06/2020 18:27,38.0,2,1,1.0,356.0,Trapezoidal rule,Numerical Methods,
+3251,535,421,18,10.0,4,0,16/12/2019 19:30,,,72,,"If $u=(1,-2,\lambda)$ and $v=(-2,4,5)$ are linearly dependent vectors of $\mathbb{R}^3$, indicate what value can $\lambda$ assume.",Basic,$\lambda=-\dfrac{5}{2}$,$\lambda=0$,$\lambda=\dfrac{1}{5}$,$\lambda=-2$,,,30/04/2019 1:05,1,01/05/2019 22:50,38.0,1,1,1.0,148.0,Span,Linear Algebra,Vector Spaces
+19767,3342,584,22,,3,0,01/02/2024 11:40,,,64,,"The incidence matrix
+
+$\begin{pmatrix}
+1 & 0 & 1 & 0 & 0 & 0 \\
+1 & 1 & 0 & 0 & 0 & 0 \\	
+0 & 1 & 1 & 1 & 1 & 0 \\ 
+0 & 0 & 0 & 0 & 1 & 1 \\
+0 & 0 & 0 & 1 & 0 & 1 
+\end{pmatrix}$
+
+represents the graph:",Basic,d.,c.,a.,b.,grafo29.jpg,jpg,08/05/2019 12:25,1,31/07/2019 2:06,64.0,1,1,1.0,76.0,Incidence matrix ,Graph Theory,
+14817,2754,761,17,,1,1,28/11/2021 16:02,,,79,,"If a dice is thrown twice, what is the probability of getting a different number of dots?",Basic, $\dfrac{5}{6}$,$\dfrac{1}{36}$,$\dfrac{25}{36}$,$\dfrac{12}{36}$,,,08/06/2019 20:29,1,19/11/2019 19:37,41.0,2,3,1.0,35.0,Sample space,Probability ,
+12301,2132,655,5,6.0,3,-1,03/02/2021 9:14,,,38,,Convert to polar coordinates and find $\displaystyle\int_{0}^{3}\int_{-\sqrt{9-{x}^{2}}}^{\sqrt{9-{x}^{2}}} {x}^{3}+{x}{y}^{2}\:dydx$.,Advanced,"$\dfrac{486}{5}$
+","$\dfrac{300}{7}$
+","$\dfrac{4}{3}$
+",$\dfrac{1}{3}$,,,12/05/2019 22:51,1,12/05/2019 23:00,38.0,5,1,1.0,108.0,Cartesian coordinates,Integration,Double Integration
+4049,1282,433,18,10.0,2,0,02/01/2020 14:06,,,81,,"Consider the subspaces of $\mathbb{R}^2$, $S_1$  generated by $A=\{(2, 3), (4, 5)\}$ and $S_2=\{(x, y)\in \mathbb{R}^2: x-2y=0\}$. 
+The vector space $S_1\cap S_2$ is: ",Basic, $S_2$,$S_1$,$\mathbb{R}^2$,Null subspace ,,,30/04/2019 11:56,1,01/05/2019 23:35,38.0,3,2,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+22381,3449,455,18,10.0,1,1,01/01/2025 17:20,,,81,,Choose the set of vectors which is not a basis for $\mathbb{R}^2$.,Basic,"$\left\{(0,2),(0,0)\right\}$","$\left\{(1,0),(-2,5)\right\}$","$\left\{(-5,-4),(1,3)\right\}$","$\left\{(1,2),(2,1)\right\}$",,,02/05/2019 19:10,1,02/05/2019 19:36,38.0,1,1,1.0,151.0,Basis,Linear Algebra,Vector Spaces
+7628,576,521,7,,4,1,11/01/2020 16:22,,,91,,A polygon is regular when:,Basic,All its sides have the same length and all angles have the same amplitude.,The parallel sides have the same length and opposite angles have the same amplitude.,All the angles have the same amplitude.,All the sides have the same length.,,,04/05/2019 21:54,1,19/05/2019 12:18,67.0,2,2,1.0,15.0,Polygons,Fundamental Mathematics,
+11485,176,923,3,39.0,3,-1,15/01/2021 18:38,,,42,,Determine which of the following functions is injective.,Basic,$f(x)=x^3$,$f(x)=x^2$,$f(x)=1$,$f(x)=\sin x$,,,29/07/2019 17:09,1,01/08/2019 1:51,64.0,1,1,1.0,341.0,Injectivity of a function,Real Functions of a Single Variable,"Domain, Image and Graphics"
+16857,2326,154,12,13.0,2,0,25/11/2022 20:22,,,53,,"Find the critical and the extremum points of the function:
+\[
+f(x,y,z)=x^{3}+y^{3}+z^{3}+8(xy+xz+yz)-20(x^{2}+y^{2}+z^{2})+17
+\].",Basic,"$$\begin{align*}
+& M_{1}(0,0,0),~M_{2}\left(  8,8,8\right)  ,~M_{3}\left(  \frac{16}{3}
+,\frac{16}{3},\frac{32}{3}\right)  ,~M_{4}\left(  \frac{32}{3},\frac{16}
+{3},\frac{16}{3}\right)  ,~M_{5}\left(  \frac{16}{3},\frac{32}{3},\frac{16}
+{3}\right)\\
+&\text{ critical points}\\
+& M_{1}(0,0,0)\text{ is a maximizer}
+\end{align*}$$","$$\begin{align*}
+& M_{1}(0,0,0),~M_{2}\left(  8,8,8\right)  ,~M_{3}\left(  \frac{16}{3}
+,\frac{16}{3},\frac{32}{3}\right)  ,~M_{4}\left(  \frac{32}{3},\frac{16}
+{3},\frac{16}{3}\right)  ,~M_{5}\left(  \frac{16}{3},\frac{32}{3},\frac{16}
+{3}\right)\\
+& \text{ critical points}\\
+& M_{1}(0,0,0)\text{ maximizer},~M_{2}\left(  8,8,8\right)\text{ minimizer}%
+\end{align*}$$","$$\begin{align*}
+& M_{1}(0,0,0),~M_{2}\left(  8,8,8\right)  \text{ critical points}\\
+& M_{1}(0,0,0)\text{ maximizer},~M_{2}\left(  8,8,8\right)\text{ minimizer}%
+\end{align*}$$","$$\begin{align*}
+& M_{1}(0,0,0),~M_{2}\left(  8,8,8\right)  \text{ critical points}\\
+& M_{1}(0,0,0),~M_{2}\left(  8,8,8\right)\text{ minimizer}
+\end{align*}$$",,,31/03/2019 11:39,1,30/05/2019 12:13,67.0,3,1,1.0,177.0,Minimum,Optimization,Nonlinear Optimization
+2890,376,317,18,10.0,2,0,09/12/2019 22:46,,,81,,"Consider the subspaces of $\mathbb{R}^2$, $S_1$ generated by $\{(2, -3)\}$ and $S_2$ generated by $\{(2, -3), (-6, 9)\}$. Choose the right answer: ",Basic,"$S_1=S_2=\{(x,y): 3x+2y=0\}$","$S_1=\{(x,y): 3x+2y=0\}$ and $S_2=\mathbb{R}^2$",$S_1=S_2=\mathbb{R}^2$,"$S_1=S_2=\{(2x,-3y): x, y\in \mathbb{R}\}$",,,26/04/2019 16:51,1,20/05/2019 0:15,37.0,2,2,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+5646,468,384,18,11.0,5,1,06/01/2020 16:49,,,38,,Choose the right answer: ,Basic,"The rotation function  $F_\theta:\mathbb{R}^2\rightarrow \mathbb{R}^2$ associated with the  $\theta$ angle is an orthogonal linear operator
+","The translation function $F_v:\mathbb{R}^2\rightarrow \mathbb{R}^2$ associated to vector $v$ is a linear operator
+","The reflection function $F:\mathbb{R}^2\rightarrow \mathbb{R}^2$ around the line y = x, defined by $F(x,y)=(y, x)$ is a non-orthogonal linear operator
+",The rotation function  $F_\theta:\mathbb{R}^2\rightarrow \mathbb{R}^2$ associated with the  $\theta$ angle is a non-orthogonal linear operator,,,27/04/2019 22:44,1,16/05/2019 16:12,61.0,4,1,1.0,156.0,Linearity,Linear Algebra,Linear Transformations
+3673,1194,377,18,11.0,5,0,27/12/2019 14:43,,,38,,"Consider the linear transformation  $T:\mathbb{R}^3 \longrightarrow \mathbb{R}^3$ defined by $T(x,y,z)=(x+y,0,y+z)$. Choose the right answer.",Basic,"$ker(T)=\left\{(x,-x,x)\in \mathbb{R}^3: x\in \mathbb{R}\right\}$","The transformation $T$ is injective
+","$dim \left(ker(T)\right)=3$
+","The transformation matrix T relative to the canonical basis is $\left[\begin{array}{ccc}
+      1& 0 & 0 \\
+	1 & 0 & 1 \\
+	0 & 0 & 1
+			\end{array}\right]$",,,27/04/2019 21:04,1,14/05/2019 13:11,61.0,2,2,1.0,158.0,Matrix of a linear transformation,Linear Algebra,Linear Transformations
+12348,1888,684,3,39.0,2,1,12/02/2021 21:14,,,42,,"Let $f\colon\mathbb{R}\to\mathbb{R}$ be the function defined by
+\[
+f(x)=1+x+x^2+\dots+x^{2019}=\sum_{k=0}^{2019} x^k.
+\]
+Which of these statements is correct?",Advanced,$f$ has at least one zero.,$f$ is positive everywhere.,$\lim_{x\to +\infty} \frac{f(x)}{e^x}=+\infty$.,$f$ is even or odd.,,,15/05/2019 15:08,1,01/08/2019 1:49,64.0,5,3,1.0,338.0,Roots of a function,Real Functions of a Single Variable,"Domain, Image and Graphics"
+19696,80,114,7,2.0,7,0,31/01/2024 19:18,,,50,,"Make $r$ the subject of the expression
+
+$A=4\pi r^2$",Basic,$r=\pm \sqrt\frac{A}{4 \pi}$,$r=\pm \sqrt\frac{4 \pi}{A}$,$r=\frac{A^2}{4\pi}$,$r=\sqrt{4\pi-A}$,,,21/03/2019 14:20,1,10/05/2019 0:46,37.0,1,4,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+13454,2354,305,17,,3,1,22/06/2021 9:43,,,79,,"You need to open a locked door. You have 4 similar keys in a key-chain. What is the probability of succeeding in opening the door at the first try?
+",Basic,$\dfrac{1}{4}$,$\dfrac{1}{2}$,$\dfrac{1}{3}$ ,$\dfrac{2}{3}$ ,,,26/04/2019 16:34,1,02/05/2019 19:51,38.0,4,2,1.0,41.0,Conditional probability,Probability ,
+4564,1220,277,18,11.0,3,0,04/01/2020 11:47,,,38,,"Consider the applications that transform vectors of $\mathbb{R}^3$ into vectors of $\mathbb{R}^2$.
+
+$\begin{array}{cccc}
+F:& \mathbb{R}^3 & \rightarrow  & \mathbb{R}^2 \\
+  & (x, y, z) & \longrightarrow & (x-y^2, 2y+z)
+\end{array}
+\begin{array}{cccc}
+G:& \mathbb{R}^3 & \rightarrow  & \mathbb{R}^2 \\
+  & (x, y, z) & \longrightarrow & (x-y+z, 2y+z)
+\end{array} 
+\begin{array}{cccc}
+H:& \mathbb{R}^3 & \rightarrow  & \mathbb{R}^2 \\
+  & (x, y, z) & \longrightarrow & (x-y+z, 2y+z-1)
+\end{array}
+\begin{array}{cccc}
+J:& \mathbb{R}^3 & \rightarrow  & \mathbb{R}^2 \\
+  & (x, y, z) & \longrightarrow & (x-y, 3z+2x)
+\end{array} $
+
+Which ones  are linear applications?",Basic,"$G, J$ ","$G, H, J$","$F, G, J$
+","$F, G, H$",,,24/04/2019 18:51,1,14/05/2019 11:34,61.0,1,2,1.0,156.0,Linearity,Linear Algebra,Linear Transformations
+13819,1890,423,18,10.0,4,1,31/08/2021 18:11,,,72,,"Mark the vector which is not a linear combination of $u=(1,0,-3)$ and  $v=(0,-4,2)$.",Basic,"$(5,8,4)$","$(2,-8,-2)$","$(1,-4,-1)$","$\left(\frac{1}{3},-2,0\right)$.",,,30/04/2019 1:11,1,01/05/2019 22:53,38.0,1,1,1.0,146.0,Vector subspace,Linear Algebra,Vector Spaces
+16603,3083,1411,28,,1,1,22/10/2022 0:25,,,2956,,"Consider the sequence of general term $u_n=5n-2$ with $n \geq 1$.
+
+Which of the options below indicates the sum of the first 20 terms of this sequence?",Basic,1010,1009,1011,1012,,,11/09/2022 9:33,1,10/10/2022 19:02,64.0,1,4,1.0,299.0,Arithmetic sequence,Discrete Mathematics,
+13289,2332,1091,26,,4,1,07/06/2021 16:36,,,37,,"Consider $x^3=3$. Find $x_3$ using the bisection method on the set $[1,2]$.",Basic,$x_3=1.375$,$x_3=1.425$,$x_3=1.725$,$x_3=1.325$,,,14/06/2020 18:35,1,28/06/2020 20:30,37.0,1,1,1.0,222.0,Bisection method,Numerical Methods,
+1100,128,326,10,,1,1,30/10/2019 7:55,,,78,,Simplify $i^{148}$.,Basic,$1$,$i$,$-1$,$-i$,,,26/04/2019 19:03,1,27/04/2019 17:29,37.0,2,5,1.0,24.0,Imaginary part,Complex Numbers,
+5958,1109,435,18,10.0,3,-1,07/01/2020 1:32,,,81,,"Consider the subsets  $\displaystyle A=\{(1, 1, 1), (0, 1, 1), (1, 2, 3)\}$ and $\displaystyle B=\left\{(1, 1, 1), \left(-\frac{2}{3}, \frac{1}{3}, \frac{1}{3}\right), \left(0, -\frac{1}{2}, \frac{1}{2}\right)\right\}$ of $\mathbb{R}^3$. Choose the right answer:",Basic,$B$ is an orthogonal basis of $\mathbb{R}^3$ but $A$ isn't an orthogonal basis of $\mathbb{R}^3$,$A$ is an orthogonal basis of $\mathbb{R}^3$ but $B$ isn't an orhtogonal basis of $\mathbb{R}^3$,$A$ and $B$ are both orthogonal basis of of $\mathbb{R}^3$,$A$ and $B$ are both non-orthogonal basis of $\mathbb{R}^3$,,,30/04/2019 12:01,1,01/05/2019 23:47,38.0,4,2,1.0,151.0,Basis,Linear Algebra,Vector Spaces
+2417,750,919,3,39.0,3,0,02/12/2019 7:54,,,42,,Determine which of the following functions is not periodic.,Basic,$f(x)=\sin(x^2)$,$f(x)=1$,$f(x)=\cos^2(x)$,$f(x)=\log(2+\sin x)$,,,29/07/2019 16:45,1,01/08/2019 1:50,64.0,5,3,1.0,339.0,Periodicity of a function,Real Functions of a Single Variable,"Domain, Image and Graphics"
+5468,1143,383,18,11.0,3,0,06/01/2020 13:20,,,38,,"Consider the linear application $T: \mathbb{R}^3\rightarrow \mathbb{R}^2$, such that 
+$$T(1,0,1)=(-2,4), \quad T(0,-1,2)=(5, 0), \quad T(0,0,3)=(-6,3)$$ 
+Choose the right answer. ",Basic,"$T(x,y,z)=(-9y-2z,3x+2y+z)$ 
+","$T(x,y,z)=(-2x+5y-6z,4x+3z)$
+","$T(x,y,z)=(x,-y,x+2y+3z)$ 
+","$T(x,y,z)=(y-2z,3x+y+z)$",,,27/04/2019 22:41,1,16/05/2019 16:10,61.0,2,2,1.0,156.0,Linearity,Linear Algebra,Linear Transformations
+20907,2977,102,7,2.0,7,1,07/06/2024 10:28,,,50,,"Make $r$ the subject of the expression
+
+$p=q+r$",Basic,$r=p-q$,$r=p+q$,$r=\frac{p}{q}$,$r=q-p$,,,20/03/2019 16:26,1,10/05/2019 0:41,37.0,1,4,1.0,3.0,Linear equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+6312,168,780,18,11.0,5,0,07/01/2020 16:52,,,81,,Let $F: \mathbb{R}^5\rightarrow \mathbb{R}^3$ be a linear surjective application and $T: \mathbb{R}^4\rightarrow \mathbb{R}^4$ be an invertible linear operator. Choose the correct answer: ,Basic,"$Ker(F)=\mathbb{R}^2$ and $Ker(T)=\left\{(0,0,0,0)\right\}$",$Ker(F)=\mathbb{R}^2$ and $Ker(T)=\left\{\right\}$,"$Ker(F)=\mathbb{R}^3$ and $Ker(T)=\left\{(0,0,0,0)\right\}$",$Ker(F)=\mathbb{R}^2$ and $Ker(T)=\mathbb{R}^4$,,,21/06/2019 18:22,1,04/10/2019 10:18,61.0,2,1,1.0,159.0,Kernel,Linear Algebra,Linear Transformations
+13753,2427,281,12,12.0,3,0,23/08/2021 21:50,,,37,,"The WorldLight Company produces two light fixtures (products $1$ and $2$) that require both metal frame parts and electrical components. Management wants to determine how many units of each product to produce so as to maximize profit. For each unit of product $1$, $1$ unit of frame parts and $2$ units of electrical components are required. For each unit of product $2$, $3$ units of frame parts and $2$ units of electrical components are required. The company has $200$ units of frame parts and $300$ units of electrical components. 
+
+Each unit of product $1$ gives a profit of $1?$, and each unit of product $2$, up to $60$ units, gives a profit of $2?$. Any excess over	$60$ units of product $2$ brings no profit, so such excess has been ruled out.
+	
+In this situation, what are the decision variables to formalize the Linear Programming (LP) model that allows planning the company's activity?",Basic,"$x_{i}$ the number of units of product $i$ produced ($i=1$, for product $A$ and $i=2$, for product $B$).",$x$ the number of units of product $1$ and $2$ produced.,$x_{1}$ is the number of units of product $1$ produced.,$x_{2}$ is the number of units of product $2$ produced.,,,25/04/2019 21:39,1,14/05/2019 11:30,61.0,1,3,1.0,166.0,Linear programming,Optimization,Linear Optimization
+9077,1610,642,18,7.0,2,1,22/07/2020 14:24,,,52,,It is possible to compute $B \cdot A $ if,Basic,the matrices are both square matrices of the same order,the number of the columns of $A$ is equal to the number of the rows of $B$,the matrices are both symmetric,the matrices are both non-singular,,,12/05/2019 11:29,1,12/05/2019 11:34,52.0,4,4,1.0,114.0,Matrix multiplication,Linear Algebra,Matrices and Determinants
+3411,1056,999,4,4.0,2,-1,18/12/2019 16:04,,,38,,"Consider $f(x,y) = x + x^3y^2 - 2y^2x$. Find $f_{x}(2,1)$.",Basic,"$f_{x}(2,1) = 11$","$f_{x}(2,1) = 13$","$f_{x}(2,1) = 10$","$f_{x}(2,1) = -2$",,,01/12/2019 3:01,1,02/12/2019 23:44,38.0,1,4,1.0,265.0,First order,Differentiation,Partial Differentiation
+9356,483,667,7,,7,0,06/10/2020 13:38,,,50,,"Solve for $x$:
+
+$\dfrac{x}{3}= \dfrac{3}{x}$",Basic,$x= \pm3$,$x=3$,$x=1$,$x=0$,,,14/05/2019 17:34,1,09/09/2019 1:02,37.0,2,4,1.0,5.0,Simplify expressions,Fundamental Mathematics,
+16092,3013,668,7,2.0,1,0,22/09/2022 22:46,,,50,,"Solve for $t$:
+
+$\dfrac {15}{3t^2}= \dfrac{2}{5}$",Basic,$t=\pm3.54$,$t=3.54$,$t=\pm0.71$,$t=0.71$,,,14/05/2019 17:48,1,09/09/2019 1:04,37.0,2,1,1.0,5.0,Simplify expressions,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+21832,3484,911,12,13.0,2,0,02/12/2024 15:13,,,155,," Let be $f:\mathbb{R}^{2}\rightarrow \mathbb{R}$, $%
+f(x,y)=x^{3}+3xy^{2}+ax+by+c.$ Find the real parameters $a,b,c$ such $%
+f(-2,-1)=30$ is a local maximum.",Basic,"$a=-15,\, b=-12,\, c=2$","$a=15,\, b=12,\, c=-2$","$a=-15,\, b=-12,\, c=-2$",no solution,,,23/07/2019 11:23,1,06/12/2019 20:05,38.0,3,3,1.0,176.0,Optimal solution,Optimization,Nonlinear Optimization
+14008,2457,796,7,2.0,4,1,11/10/2021 16:33,,,50,,"Solve for $x$:
+
+$3^{x^2-1}=27$",Basic,$x=\pm 2$,$x=\pm 0.5$,$x=3$,$x=0.3$,,,27/06/2019 0:35,1,27/09/2019 7:45,61.0,4,1,1.0,2.0,Exponential function,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+10166,1858,613,7,2.0,7,0,26/11/2020 10:47,,,50,,"Simplify:
+
+$(x+y)(x^2 -xy+y^2)$",Basic,$x^3 +y^3$,$x^3 +2x^2y +xy^2 +y^3$,$x^2 +y^2$,$x-xy+y$,,,10/05/2019 12:25,1,09/09/2019 0:48,37.0,1,4,1.0,4.0,Quadratic equations,Fundamental Mathematics,"Algebraic expressions, Equations, and Inequalities"
+17389,3158,1016,12,13.0,2,0,01/12/2022 19:07,,,37,,"Consider the problem 
+\[
+\begin{array}{rl}
+\min & e^{x_1}+x_2\\
+s.t & -x_1-x_2 \leq 0
+\end{array}
+\]
+
+Solve using the SQP method. 
+It is possible to say that",Basic,"$(-1,1)$ is the local solution of the problem.","$(0,0)$ is not a feasible point.",the problem is impossible.,"$(-1,1)$ is a maximizer of the problem.",,,02/12/2019 2:41,1,02/12/2019 2:43,38.0,3,4,1.0,177.0,Minimum,Optimization,Nonlinear Optimization

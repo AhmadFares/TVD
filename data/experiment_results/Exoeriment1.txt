@@ -1,0 +1,5 @@
+URS: 20-21-22-23
+Dataset: MATHE
+Splits: all
+Methods: Method1-FullScan Stats and NoStats
+Theta 0.6-0.8-1
