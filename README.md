@@ -2,70 +2,74 @@
 
 ## Codebase Overview
 
-This repository contains the **experimental and algorithmic code** for running
-**Tuple-Value Discovery (TVD)** methods and evaluating them under different source
-construction settings.
+# TVD — Tuple-Value Discovery
 
-The code is organized around:
+This repository contains the **research code** for implementing and evaluating
+**Tuple-Value Discovery (TVD)** strategies in controlled experimental settings.
+TVD studies how to reconstruct a target table from multiple source tables
+given a user request defined over attribute values.
 
-* TVD algorithms,
-* SQL-based query strategies,
-* source construction utilities,
-* experiment runners.
+This codebase is designed for **experimental reproducibility**, method comparison,
+and offline evaluation. It is **not** a standalone library or production tool.
 
 ---
 
 ## Repository Structure
 
-### Core logic
+### Core logic (root)
 
 * `sql_builders.py`  
-  SQL query construction utilities (fixed and rewritten queries).
+  SQL query construction utilities (fixed and rewritten formulations).
 
 * `utils.py`  
-  Shared helpers: UR parsing, coverage, penalty, pruning utilities, logging helpers.
+  Shared helpers: UR parsing, coverage, penalty, pruning, and logging utilities.
 
 * `Source_Constructors.py`  
-  Functions to generate synthetic source tables (random, skewed, high-penalty,
-  low-coverage, etc.).
+  Utilities to generate synthetic source tables (e.g., random, skewed,
+  high-penalty, low-coverage).
 
 ---
 
-### SQL_Variants/
+### `SQL_Variants/`
 
-Main implementation of TVD variants and execution pipeline.
+Main implementation and execution framework for TVD methods.
 
 * `SQL_Variants/core/`  
-  Core components shared by all methods (SQL builders, utilities, execution helpers).
+  Core components shared by all TVD methods.
 
 * `SQL_Variants/methods/`  
-  TVD methods (e.g., AttributeMatch, TupleMatch).
+  Implementations of specific TVD strategies (e.g., AttributeMatch, TupleMatch).
 
 * `SQL_Variants/scripts/`  
-  Entry-point scripts for running experiments and sanity checks.
+  Entry-point scripts for specific operations and subroutines.
+
+---
+
+### `helpers/`
+
+Contains miscellaneous utilities and test cases, including user request (UR)
+definitions used by the TUS pipeline.
 
 ---
 
 ### Scripts (root level)
 
 * `generate_splits.py`  
-  Generates source tables from a base dataset (MovieLens-1M).  
-  **Must be run first.**
+  Generates source tables from the MovieLens base dataset.
 
 * `generate_splits_tus.py`  
-  Generates source tables from a base dataset (TUS).  
-  **Must be run first.**
-  
+  Generates source tables from the TUS candidate inputs.
+
 * `Check1.py`  
-  Runs a **single UR** against generated sources (debug / sanity check).
+  Runs a **single UR** against generated sources (debug / sanity check).  
   The UR, dataset, and execution parameters are configured in `GENERAL_CONFIG`.
 
 * `run_experiments.py`  
-  Runs **full experimental sweeps** (multiple URs, splits, configurations).
-  All experiment settings (datasets, URs, variants, thresholds, modes) are defined
-  in `GENERAL_CONFIG`.
+  Runs **full experimental sweeps** (multiple URs, splits, configurations).  
+  All configurable experiment settings are defined in `GENERAL_CONFIG`.
 
 ---
+
 
 ## How to Run
 
